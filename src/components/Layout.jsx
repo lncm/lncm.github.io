@@ -1,21 +1,13 @@
 import React from "react";
 
 import "normalize.css";
-import "../css/index.css";
+import "../css/index.scss";
 
 import Header from "./Header";
-import MainMenu from "./MainMenu";
 
 export default ({ children }) => (
-  <div style={{
-    margin: '1em auto',
-    maxWidth: 650,
-    padding: '2em',
-    border: '1px solid #ccc',
-    background: 'white'
-  }}>
+  <div id="layout-container">
     <Header />
-    <MainMenu />
     {children}
   </div>
 )

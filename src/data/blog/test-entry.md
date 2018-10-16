@@ -1,6 +1,6 @@
 ---
 title: Test Entry
-date: "2018-10-17" # yy-mm-dd
+date: "2018-10-17"
 author: hitchcott
 ---
 

@@ -1,17 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import MainMenu from "./MainMenu";
+
 import logo from "../images/logo.png"
 
 export default () => (
-  <header style={{ textAlign: 'center' }}>
+  <header id="main-header">
     <Link to="/">
-      <img src={logo} alt="LNCM Logo" style={{ maxWidth: '100%', width: '100px' }} />
+      <img src={logo} alt="LNCM Logo" className="logo" />
     </Link>
-    <h1 style={{ margin: 0, lineHeight: '1em' }}>
+    <h1>
       LNCM
       <br />
-      <span style={{ fontSize: '0.5em' }}>Lightning Network Chiang Mai</span>
+      <small>Lightning Network Chiang Mai</small>
     </h1>
+    <MainMenu />
   </header>
 )

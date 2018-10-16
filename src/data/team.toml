@@ -1,0 +1,10 @@
+description='Some kind of header'
+
+[[members]]
+name='chris'
+
+[[members]]
+name='alice'
+
+[[members]]
+name='bob'

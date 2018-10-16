@@ -1,6 +1,6 @@
 ---
 title: Hello World
-date: "2018-10-16" # yy-mm-dd
+date: "2018-10-16"
 author: hitchcott
 ---
 
