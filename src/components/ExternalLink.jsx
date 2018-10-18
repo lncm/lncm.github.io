@@ -1,11 +1,11 @@
-import React from "react"
+import React from 'react';
 
-export default (props) => (
+export default ({ children, ...props }) => (
   <a
     target="_blank"
     rel="noopener noreferrer"
     {...props}
   >
-    {props.children}
+    {children}
   </a>
 );

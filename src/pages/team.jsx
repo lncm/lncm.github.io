@@ -1,9 +1,9 @@
-import React from "react"
-import Layout from "../components/Layout"
+import React from 'react';
+import Layout from '../components/Layout';
 
 import ExternalLink from '../components/ExternalLink';
 
-import { description, members } from "../data/team.toml"
+import { description, members } from '../data/team.toml';
 
 export default () => (
   <Layout>
@@ -16,12 +16,12 @@ export default () => (
           <h3>{member.name}</h3>
           <h4>{member.role}</h4>
           <p>
-            {member.twitter && <ExternalLink href={'https://twitter.com/' + member.twitter}>Twitter</ExternalLink>}{' '}
-            {member.github && <ExternalLink href={'https://twitter.com/' + member.github}>Github</ExternalLink>}{' '}
-            {member.keybase && <ExternalLink href={'https://twitter.com/' + member.keybase}>Keybase</ExternalLink>}{' '}
+            {member.twitter && <ExternalLink href={`https://twitter.com/${member.twitter}`}>Twitter</ExternalLink>}{' '}
+            {member.github && <ExternalLink href={`https://twitter.com/${member.github}`}>Github</ExternalLink>}{' '}
+            {member.keybase && <ExternalLink href={`https://twitter.com/${member.keybase}`}>Keybase</ExternalLink>}{' '}
           </p>
         </div>
       ))}
     </div>
   </Layout>
-)
+);

@@ -1,9 +1,9 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import { Link } from 'gatsby';
 
-import MainMenu from "./MainMenu";
+import MainMenu from './MainMenu';
 
-import logo from "../images/logo.png"
+import logo from '../images/logo.png';
 
 export default () => (
   <header id="main-header">
@@ -17,4 +17,4 @@ export default () => (
     </h1>
     <MainMenu />
   </header>
-)
+);

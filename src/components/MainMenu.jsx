@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react';
+import { Link } from 'gatsby';
 import ExternalLink from './ExternalLink';
 
 const menuItems = ['about', 'blog', 'projects', 'team'];
@@ -15,4 +15,4 @@ export default () => (
       <ExternalLink href="https://github.com/lncm">github</ExternalLink>
     </li>
   </ul>
-)
+);

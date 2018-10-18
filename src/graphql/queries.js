@@ -1,4 +1,4 @@
-import { graphql } from "gatsby"
+import { graphql } from 'gatsby';
 
 // used in individual articles (template)
 export const markdownItemFormatter = graphql`
@@ -10,7 +10,7 @@ export const markdownItemFormatter = graphql`
       date(formatString: "YYYY.MM.DD")
     }
   }
-`
+`;
 
 // used in list of items (page)
 export const markdownItemsFormatter = graphql`
@@ -31,7 +31,7 @@ export const markdownItemsFormatter = graphql`
       }
     }
   }
-`
+`;
 
 export const blogItemsQuery = graphql`
   fragment BlogItemsQuery on Query {
@@ -42,7 +42,7 @@ export const blogItemsQuery = graphql`
       ...MarkdownItemsFormatter
     }
   }
-`
+`;
 
 export const projectItemsQuery = graphql`
   fragment ProjectItemsQuery on Query {
@@ -53,4 +53,4 @@ export const projectItemsQuery = graphql`
       ...MarkdownItemsFormatter
     }
   }
-`
+`;

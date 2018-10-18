@@ -1,7 +1,7 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from 'react';
+import { Link, graphql } from 'gatsby';
 
-import Layout from "../components/Layout"
+import Layout from '../components/Layout';
 
 export default ({ data }) => (
   <Layout>
@@ -19,6 +19,6 @@ export default ({ data }) => (
       </div>
     ))}
   </Layout>
-)
+);
 
-export const query = graphql`query { ...BlogItemsQuery }`
+export const query = graphql`query { ...BlogItemsQuery }`;

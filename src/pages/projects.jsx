@@ -1,12 +1,11 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from 'react';
+import { Link, graphql } from 'gatsby';
 
-import Layout from "../components/Layout"
+import Layout from '../components/Layout';
 
 export default ({ data }) => (
   <Layout>
     <h2>Projects</h2>
-    {/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4> */}
     <div className="item-grid">
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
@@ -21,6 +20,6 @@ export default ({ data }) => (
       ))}
     </div>
   </Layout>
-)
+);
 
-export const query = graphql`query { ...ProjectItemsQuery }`
+export const query = graphql`query { ...ProjectItemsQuery }`;

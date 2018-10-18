@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: 'LNCM',
-    description: 'Lightning Network Chiang Mai'
+    description: 'Lightning Network Chiang Mai',
   },
   plugins: [
+    'gatsby-plugin-eslint',
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
@@ -13,6 +14,6 @@ module.exports = {
       },
     },
     'gatsby-transformer-remark',
-    'gatsby-transformer-toml'
+    'gatsby-transformer-toml',
   ],
-}
+};
