@@ -1,10 +1,33 @@
-description='Some kind of header'
+description='LNCM is a group of developers and tech enthusiasts based in Chiang Mai, Thailand.'
 
 [[members]]
-name='chris'
+name='Some Dude'
+role='Person'
+gravatar='205e460b479e2e5b48aec07710c08d50'
+twitter='somedude'
+github='somedude'
+keybase='somedude'
 
 [[members]]
-name='alice'
+name='Some Dude 2'
+role='Person with extra long description that messes up the alignment'
+gravatar='205e460b479e2e5b48aec07710c08d50'
+twitter='somedude'
+github='somedude'
+keybase='somedude'
 
 [[members]]
-name='bob'
+name='Some Dude 3'
+role='Person'
+gravatar='205e460b479e2e5b48aec07710c08d50'
+twitter='somedude'
+github='somedude'
+keybase='somedude'
+
+[[members]]
+name='Some Dude 4'
+role='Person'
+gravatar='205e460b479e2e5b48aec07710c08d50'
+twitter='somedude'
+github='somedude'
+keybase='somedude'

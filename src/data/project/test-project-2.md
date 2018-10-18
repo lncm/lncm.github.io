@@ -1,7 +1,6 @@
 ---
-title: Hello World 2
+title: Test Project 2
 date: "2018-10-14"
-author: someone
 ---
 
 Hello, world!

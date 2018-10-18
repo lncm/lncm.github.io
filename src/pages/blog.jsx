@@ -21,27 +21,4 @@ export default ({ data }) => (
   </Layout>
 )
 
-export const query = graphql`
-  query {
-    allMarkdownRemark(
-      filter: { fields: { template: { eq: "blog" } } },
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            author
-            date(formatString: "YYYY.MM.DD")
-          }
-          fields {
-            slug
-          }
-          excerpt
-        }
-      }
-    }
-  }
-`
+export const query = graphql`query { ...BlogItemsQuery }`

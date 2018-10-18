@@ -9,7 +9,7 @@ export default ({ data: { markdownRemark: post } }) => (
       <h2>{post.frontmatter.title}</h2>
       <h3>By {post.frontmatter.author} on {post.frontmatter.date}</h3>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      <Link to='/blog'>⬅ Back to Blog</Link>
+      <Link to='/projects'>⬅ Back to Projects</Link>
     </div>
   </Layout>
 )
@@ -17,12 +17,7 @@ export default ({ data: { markdownRemark: post } }) => (
 export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
-      frontmatter {
-        title
-        author
-        date(formatString: "YYYY.MM.DD")
-      }
+      ...MarkdownItemFormatter
     }
   }
 `
