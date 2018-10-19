@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 import Layout from '../components/Layout';
 
@@ -9,6 +10,9 @@ export default ({ data }) => (
     <div className="item-grid">
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
+          <Link to={node.fields.slug}>
+            <Img fluid={node.frontmatter.cover_image.childImageSharp.fluid} />
+          </Link>
           <h3>
             <Link to={node.fields.slug}>
               {node.frontmatter.title}

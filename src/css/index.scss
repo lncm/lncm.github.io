@@ -1,11 +1,11 @@
 $mobileBreakpoint: 600px;
 
 body {
-  background: #eee;
+  background: #f7f7f7;
   font-family: 'Roboto', sans-serif;
 }
 
-h3,h4,h5 { margin: 0; }
+h3,h4,h5 { margin: 0.2em 0; }
 
 a {
   text-decoration: none;
@@ -21,7 +21,7 @@ a {
   margin: 1em auto;
   max-width: 650px;
   padding: 2em;
-  border: 1px solid #ccc;
+  border: 1px solid #efefef;
   background: white;
 }
 
@@ -56,4 +56,9 @@ a {
   @media only screen and (max-width: $mobileBreakpoint) {
     grid-template-columns: 1fr;
   }
+}
+
+.icon-link {
+  margin-right: 0.4em;
+  img { width: 1em; }
 }

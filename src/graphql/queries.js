@@ -24,6 +24,13 @@ export const markdownItemsFormatter = graphql`
           title
           author
           date(formatString: "YYYY.MM.DD")
+          cover_image {
+            childImageSharp {
+              fluid(maxWidth: 700) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
         fields {
           slug
