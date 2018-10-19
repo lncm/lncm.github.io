@@ -29,6 +29,9 @@ export const markdownItemsFormatter = graphql`
               fluid(maxWidth: 700) {
                 ...GatsbyImageSharpFluid
               }
+              fixed(width: 100) {
+                ...GatsbyImageSharpFixed
+              }
             }
           }
         }

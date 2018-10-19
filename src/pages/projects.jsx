@@ -5,14 +5,16 @@ import Img from 'gatsby-image';
 import Layout from '../components/Layout';
 
 export default ({ data }) => (
-  <Layout>
-    <h2>Projects</h2>
+  <Layout title="Projects">
     <div className="item-grid">
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
-          <Link to={node.fields.slug}>
-            <Img fluid={node.frontmatter.cover_image.childImageSharp.fluid} />
-          </Link>
+          {node.frontmatter.cover_image
+            && (
+            <Link to={node.fields.slug}>
+              <Img fluid={node.frontmatter.cover_image.childImageSharp.fluid} />
+            </Link>
+            )}
           <h3>
             <Link to={node.fields.slug}>
               {node.frontmatter.title}

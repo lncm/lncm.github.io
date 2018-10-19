@@ -6,7 +6,7 @@ import '../css/index.scss';
 
 import Header from './Header';
 
-export default ({ children }) => (
+export default ({ children, title }) => (
   <div id="layout-container">
     <Helmet>
       <meta charSet="utf-8" />
@@ -14,6 +14,9 @@ export default ({ children }) => (
       <link rel="description" href="Lightning Network Chiang Mai" />
     </Helmet>
     <Header />
-    {children}
+    {title && <h2>{title}</h2>}
+    <div className="content">
+      {children}
+    </div>
   </div>
 );

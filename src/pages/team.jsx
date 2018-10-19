@@ -10,8 +10,7 @@ import keybaseIcon from '../images/keybase.svg';
 import githubIcon from '../images/github.svg';
 
 export default () => (
-  <Layout>
-    <h2>Team</h2>
+  <Layout title="Team">
     <p>{description}</p>
     <div className="item-grid">
       {members.map(member => (
