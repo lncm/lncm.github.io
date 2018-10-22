@@ -64,3 +64,23 @@ export const projectItemsQuery = graphql`
     }
   }
 `;
+
+export const teamImagesQuery = graphql`
+  fragment TeamImagesQuery on Query {
+    allFile(filter: {
+      relativeDirectory : { eq: "team" },
+      sourceInstanceName: { eq: "static" }
+    }) {
+      edges {
+        node {
+          name
+          childImageSharp {
+            fluid(maxWidth: 700) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+  }
+`;

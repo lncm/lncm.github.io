@@ -1,15 +1,11 @@
 module.exports = {
-  siteMetadata: {
-    title: 'LNCM',
-    description: 'Lightning Network Chiang Mai',
-  },
   plugins: [
     // add images before markdown
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/data/static/`,
         name: 'static',
+        path: `${__dirname}/src/data/static/`,
       },
     },
     {
