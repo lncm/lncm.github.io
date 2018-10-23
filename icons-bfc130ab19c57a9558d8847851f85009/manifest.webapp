@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "name": "LNCM",
+  "description": "Lightning Network Chiang Mai",
+  "icons": {
+    "60": "/icons-bfc130ab19c57a9558d8847851f85009/firefox_app_60x60.png",
+    "128": "/icons-bfc130ab19c57a9558d8847851f85009/firefox_app_128x128.png",
+    "512": "/icons-bfc130ab19c57a9558d8847851f85009/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": null,
+    "url": null
+  }
+}
