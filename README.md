@@ -8,7 +8,7 @@ When using `https://lncm.github.io` to serve the static site, Github requires th
 
 ## Develop
 
-Ensure you have nodejs installed, and run `npm i` to install deps. Then start the development server with `npm start`.
+Clone the (default) `source` branch. Ensure you have nodejs 8+ installed, and run `npm i` to install deps. Then start the development server with `npm start`.
 
 ## Modify Content
 
