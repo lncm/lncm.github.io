@@ -6,7 +6,8 @@
     "start": "npm run develop",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "gh-pages -d public -b master"
   },
   "dependencies": {
     "gatsby": "^2.0.0",
@@ -23,6 +24,7 @@
     "gatsby-transformer-remark": "^2.1.7",
     "gatsby-transformer-sharp": "^2.1.4",
     "gatsby-transformer-toml": "^2.1.1",
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.9.4",
     "normalize.css": "^8.0.0",
     "react": "^16.5.1",
