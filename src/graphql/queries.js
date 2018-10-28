@@ -1,13 +1,15 @@
 import { graphql } from 'gatsby';
 
-// used in individual articles (template)
-export const markdownItemFormatter = graphql`
-  fragment MarkdownItemFormatter on MarkdownRemark  {
-    html
-    frontmatter {
-      title
-      author
-      date(formatString: "YYYY.MM.DD")
+// used in individual articles (templates)
+export const markdownPost = graphql`
+  fragment MarkdownItemFormatter on Query {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        title
+        author
+        date(formatString: "YYYY.MM.DD")
+      }
     }
   }
 `;
