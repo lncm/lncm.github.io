@@ -40,7 +40,7 @@ export default () => (
         billing methods, based on actual usage.
     </p>
     <p>
-      Onion-style routing significantly increases financial privacy of trasacting parties
+      Onion-style routing significantly increases financial privacy of transacting parties
        and since channel peers pay each other directly using Bitcoin transactions, no
        third party must be trusted.
     </p>
