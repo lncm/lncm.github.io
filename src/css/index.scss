@@ -6,6 +6,7 @@ body {
   background: #f7f7f7;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+  line-height: 1.5;
 }
 
 h1,h2 { font-weight: $boldWeight; }
@@ -13,8 +14,16 @@ h3,h4,h5,h6,a,strong,b { font-weight: $normalWeight; }
 h3,h4,h5 { margin: 0.2em 0; }
 h3 a { font-weight: $boldWeight; }
 
+bold {
+  font-weight: bold;
+}
+
+italic {
+  font-style: italic;
+}
+
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: inherit;
   &:hover {
     text-decoration: underline;
