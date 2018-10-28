@@ -12,7 +12,7 @@ Clone the (default) `source` branch. Ensure you have nodejs 8+ installed, and ru
 
 ## Modify Content
 
-Add Images / Markdown files in the `src/data` directory, markdown files should have the data specified (see existing files for example)
+Add Images / Markdown files in the `src/data` directory (or in `pages` for new root pages). Markdown files should have the data specified (see existing files for example).
 
 ## Deploy
 
