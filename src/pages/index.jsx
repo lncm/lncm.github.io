@@ -32,7 +32,7 @@ export default () => (
       Why Lightning?
     </h2>
     <p>
-      The lightning network allows payments to be made across the Internet
+      The <a href="https://en.bitcoin.it/wiki/Lightning_Network">Lightning Network</a> allows payments to be made across the Internet
        within the blink of an eye.
     </p>
     <p>
