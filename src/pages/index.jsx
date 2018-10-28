@@ -18,7 +18,7 @@ export default () => (
       Join us
     </h2>
     <p>
-      We hold regular meetings around Chiang Mai to present and discuss our current projects.
+      We hold regular <a href="https://github.com/lncm/ideas">meetings</a> around Chiang Mai to present and discuss our current projects.
     </p>
     <p>
      All contributors are welcome to join and all forms of contribution are highly valued,
