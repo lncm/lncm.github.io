@@ -2,7 +2,7 @@
 title: About Us
 ---
 
-**Lightning Network Chiang Mai** are a group of cryptocurrency developers and enthusiasts focused on payment channel technology for Bitcoin, who sometimes hang out in Chiang Mai.
+**Lightning Network Chiang Mai** are a group of cryptocurrency developers and enthusiasts focused on payment channel technology for Bitcoin.
 
 Our aim is to bring about real-world use of lightning by making it *easier* and *cheaper* to join the network.
 
