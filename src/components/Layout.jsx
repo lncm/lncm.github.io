@@ -11,7 +11,7 @@ export default ({ children, title }) => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>LNCM</title>
-      <link rel="description" href="Lightning Network Chiang Mai" />
+      <meta name="description" content="Lightning Network Chiang Mai are a group of cryptocurrency developers and enthusiasts focused on payment channel technology for Bitcoin." />
     </Helmet>
     <Header />
     {title && <h2>{title}</h2>}
