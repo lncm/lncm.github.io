@@ -7,7 +7,6 @@ export const markdownPost = graphql`
       html
       frontmatter {
         title
-        author
         date(formatString: "YYYY.MM.DD")
       }
     }
@@ -24,7 +23,6 @@ export const markdownItemsFormatter = graphql`
         excerpt
         frontmatter {
           title
-          author
           date(formatString: "YYYY.MM.DD")
           cover_image {
             childImageSharp {
