@@ -12,7 +12,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       slug = slug.replace('/data', '');
       [, template] = slug.split('/');
     }
-    console.log('creating', template, slug);
     createNodeField({ node, name: 'template', value: template });
     createNodeField({ node, name: 'slug', value: slug });
   }

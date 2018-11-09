@@ -18,12 +18,12 @@ Add Images / Markdown files in the `src/data` directory (or in `pages` for new r
 
 To generate the static HTML, run `npm run build`.  Use `npm run serve` to test the build.
 
+If you run into an error when building, try `rm -rf .cache`.
+
 Serve the generated `public` directory from anywhere (note: additional config required for non-root domain).
 
 You can use `npm run deploy`, which will push the contents of `public` to the `master` branch on Github.
 
 ## TODOs
 
-```
-- content
-```
+See issues for TODOs
