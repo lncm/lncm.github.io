@@ -46,7 +46,7 @@ a {
 }
 
 #main-menu {
-  margin: 0;
+  margin: 0.5em 0em;
   padding: 0;
   li {
     padding: 0.5em;
@@ -80,4 +80,13 @@ a {
     float: left;
     margin-right: 1em;
   }
+}
+
+.social-media {
+  text-align: center;
+  a {
+    opacity: 0.5;
+    padding: 0.3em;
+  }
+  a:hover { opacity: 1; }
 }
