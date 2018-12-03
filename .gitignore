@@ -63,3 +63,5 @@ yarn-error.log
 
 # MacOS turds
 .DS_Store
+
+.idea

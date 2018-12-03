@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import SocialMedia from './SocialMedia';
 
 // const menuItems = ['about', 'blog', 'projects', 'team'];
-const menuItems = ['about', 'projects'];
+const menuItems = ['about', 'projects', 'team'];
 
 export default () => (
   <div>

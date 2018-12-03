@@ -11,9 +11,22 @@ import IconLink from '../components/IconLink';
 
 import { description, members } from '../data/team.toml';
 
+const membersUrl = 'https://api.github.com/orgs/lncm/public_members';
+const memberUrl = 'https://api.github.com/users/';
+
 export default ({ data: { allFile: { edges: images } } }) => {
+  fetch(membersUrl)
+    .then(response => response.json())
+    .then(members2 => Promise.all(members2.map(({ login }) => fetch(`${memberUrl}${login}`)
+      .then(response => response.json()))))
+    .then(x => console.log(x));
+
+  // console.log(user.login, user.avatar_url, user.html_url, user.name, user.blog, user.bio,
+  // user.public_repos);
+
   // merge team images with team members
   const team = members.map((m) => {
+    console.log(members);
     const image = images.find(({ node: { name } }) => name === m.image);
     return { ...m, image: image && image.node.childImageSharp };
   });
