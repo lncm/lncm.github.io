@@ -1,1 +1,20 @@
+name: Build lncm site with actions
+on:
+  push:
+    branches:
+      - master
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        name: Checkout master from this repo
+      - name: Checkout submodules associated with this repo
+        uses: textbook/git-checkout-submodule-action@1.0.0
+      - name: Setup Node.js for use with actions
+        uses: actions/setup-node@v1.1.0
+      - run: npm install
+        name: Run NPM install
+      - run: npm run build
+        name: Run NPM build
