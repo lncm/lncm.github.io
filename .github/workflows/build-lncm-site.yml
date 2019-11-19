@@ -2,7 +2,7 @@ name: Build lncm site with actions
 on:
   push:
     branches:
-      - master
+      - source
 
 
 jobs:
