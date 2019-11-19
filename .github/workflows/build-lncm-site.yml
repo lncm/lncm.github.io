@@ -31,6 +31,8 @@ jobs:
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
       - run: npm run deploy
         name: Run Deployment script to MASTER
+      - name: reset source to HEAD
+        run: git reset --hard
       - name: Checkout master
         run: git checkout master
       - name: Fetch latest sources
