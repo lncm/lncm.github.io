@@ -23,5 +23,7 @@ jobs:
         name: Set up git
       - name: Fetch master branch so we can copy it across
         run: git fetch origin master
+      - name: Change Origin to SSH
+        run: git remote set-url origin git@github.com:lncm/lncm.github.io.git
       - run: npm run deploy
         name: Run Deployment script to MASTER
