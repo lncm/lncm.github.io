@@ -37,6 +37,8 @@ jobs:
         run: git checkout master
       - name: Fetch latest sources
         run: git pull origin master
+      - name: Remove node_modules
+        run: rm -fr node_modules
       - name: Push contents of MASTER to nolim1t TOR site
         uses: nolim1t/actions/torscp@0.2.0
         env:
