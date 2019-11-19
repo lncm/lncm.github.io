@@ -42,4 +42,4 @@ jobs:
         env:
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           DEST: ${{ secrets.DEST }}
-          SRC: "*"
+          SRC: .
