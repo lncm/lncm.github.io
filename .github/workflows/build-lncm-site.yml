@@ -25,5 +25,9 @@ jobs:
         run: git fetch origin master
       - name: Change Origin to SSH
         run: git remote set-url origin git@github.com:lncm/lncm.github.io.git
+      - name: Set up SSH environment
+        run: mkdir -p ~/.ssh && echo "${PRIVATE_KEY}" > ~/.ssh/id_ed25519 && chmod 600 ~/.ssh/id_ed25519 && ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+        env:
+          PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
       - run: npm run deploy
         name: Run Deployment script to MASTER
