@@ -19,3 +19,5 @@ jobs:
         name: Run NPM install
       - run: npm run build
         name: Run NPM build
+      - run: npm run deploy
+        name: Run Deployment script
