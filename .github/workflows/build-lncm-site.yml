@@ -21,5 +21,5 @@ jobs:
         name: Run NPM build
       - run: git config --global user.email "lncm@users.noreply.github.com" && git config --global user.name "LNCM Contributors"
         name: Set up git
-      - run: npm run deploy
-        name: Run Deployment script
+      - name: Fetch master branch so we can copy it across
+        run: git fetch origin master
