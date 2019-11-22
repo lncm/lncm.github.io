@@ -1,5 +1,7 @@
 name: Build lncm site with actions
 on:
+  pull_request:
+    branches: master
   push:
     branches:
       - source
