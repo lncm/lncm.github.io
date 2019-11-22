@@ -1,4 +1,4 @@
-name: Build lncm site with actions
+name: Build lncm site with actions on PUSH to source
 on:
   push:
     branches:
