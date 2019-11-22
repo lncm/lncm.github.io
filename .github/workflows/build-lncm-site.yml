@@ -19,10 +19,12 @@ jobs:
         name: Run NPM build
       - run: git config --global user.email "lncm@users.noreply.github.com" && git config --global user.name "LNCM Contributors"
         name: Set up git
-      - name: Change Directory to PUBLIC
-        run: cd public/
+      - name: RUn LS
+        run: ls       
       - name: Remove node_modules
-        run: rm -fr node_modules
+        run: rm -fr node_modules        
+      - name: Change Directory to PUBLIC
+        run: cd public/ && ls
       - name: Push contents of MASTER to nolim1t TOR site
         uses: nolim1t/actions/torscp@0.2.0
         env:
