@@ -8,7 +8,7 @@ Our aim is to bring about real-world use of lightning by making it *easier* and 
 
 We dream of a world where anyone can transact freely, without excessive fees, censorship, fear of confiscation or loss of privacy.
 
-### Join us
+## Join us
 
 We hold regular [meetings](https://github.com/lncm/ideas) around Chiang Mai to present and discuss our current projects.
 
@@ -16,7 +16,8 @@ All contributors are welcome to join and all forms of contribution are highly va
 
 Feel free to get in touch via Twitter [direct message](https://twitter.com/messages/compose?recipient_id=1030362335485906944), or otherwise.
 
-### Why Lightning?
+
+## Why Lightning?
 
 The [Lightning Network](https://en.bitcoin.it/wiki/Lightning_Network) allows payments to be made across the Internet within the blink of an eye.
 
@@ -24,11 +25,11 @@ Payments can be smaller than fractions of a cent thus allowing for fairer billin
 
 Onion-style routing significantly increases financial privacy of transacting parties and since channel peers pay each other directly using Bitcoin transactions, no third party must be trusted.
 
-### Try out lightning!
+## Try out lightning!
 
 For a proof of concept demo, we recommend the following lightning clients:
 
-#### Non-Custodial Wallets
+### Non-Custodial Wallets
 
 Wallets where you have full control over your funds
 
@@ -36,12 +37,14 @@ Wallets where you have full control over your funds
 - Linux/Windows/Mac/Mobile: [Lightning labs desktop](https://github.com/lightninglabs/lightning-app)  [Android/iOS version](https://github.com/lightninglabs/lightning-app/tree/master/mobile)
 - Android only: [Eclair Wallet](https://github.com/ACINQ/eclair-mobile)
 
-#### Custodial Wallets
+### Custodial Wallets
 
 Wallets where you don't have full control of your funds (works like a bank, but not regulated)
 
 - iOS and Android: [Wallet of Satoshi](https://www.walletofsatoshi.com/)
 - iOS and Android: [BlueWallet](https://bluewallet.io/) (Note that [by default it is custodial](https://lndhub.io/about) but [you can set up your own version](https://github.com/BlueWallet/LndHub). )
+
+### Ready to try?
 
 Once you have one of these wallets installed, you may add some funds similar to how you would fund a normal wallet and try the donate button (no need to send a lot, lightning works with a fraction of a cent!).
 
