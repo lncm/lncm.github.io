@@ -22,7 +22,9 @@ jobs:
       - name: Remove node_modules
         run: rm -fr node_modules        
       - name: Change Directory to PUBLIC
-        run: cd public/ && ls
+        run: cd public/
+      - name: Do a LS in PUBLIC
+        run: ls
       - name: Push contents of MASTER to nolim1t TOR site
         uses: nolim1t/actions/torscp@0.2.0
         env:
