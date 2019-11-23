@@ -7,10 +7,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-        name: Checkout master from this repo
-      - name: Checkout submodules associated with this repo
-        uses: textbook/git-checkout-submodule-action@1.0.0
+      - uses: actions/checkout@v1
+        name: Checkout current GITHUB_SHA 
       - name: Setup Node.js for use with actions
         uses: actions/setup-node@v1.1.0
       - run: npm install
