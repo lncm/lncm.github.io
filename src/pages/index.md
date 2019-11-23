@@ -48,7 +48,7 @@ Wallets where you don't have full control of your funds (works like a bank, but 
 
 Once you have one of these wallets installed, you may add some funds similar to how you would fund a normal wallet and try the donate button (no need to send a lot, lightning works with a fraction of a cent!). 
 
-We also have a [proof of concept merchant in Chiang Mai](https://goo.gl/maps/R33gihUTVwtsrgJJ9) where you can spend real money with a discount.
+We also have a [proof of concept merchant in Chiang Mai](https://goo.gl/maps/R33gihUTVwtsrgJJ9) where you can spend real money with 10% discount. If you have any other merchant suggestions (ideally they need to want to keep the bitcoins), please [suggest them to us](https://github.com/lncm/ideas/issues)
 
 <div id="bottle-payment-button" data-corner="25px" data-fill="filled" data-size="small" data-color="#000000" data-textColor="#FFD54F" data-service="bottle" data-name="Send%20some%20spare%20sats%20to%20LNCM" data-avatar="https://cdn.bottle.li/userimg/a6a7a37fb60c1d66cee5c8f2fbe8151f4e4541bc660f6e72fcef13bbf24f84f6.jpg" data-username="mZc5hVov9V5vhPNAjPnM3W26W4rwgKDq3wGb8W87hLwX" data-text="donate" data-url="https://pay.bottle.li/send/social/" ></div>
 <script src="https://cdn.bottle.li/button/bb.min.js"></script>
