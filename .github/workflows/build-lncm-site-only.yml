@@ -1,7 +1,5 @@
-name: Build lncm site with actions
+name: Build lncm site with actions on PUSH to master (lncm.io)
 on:
-  pull_request:
-    branches: source
   push:
     branches:
       - source
