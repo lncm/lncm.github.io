@@ -1,4 +1,4 @@
-name: Build lncm site with actions on PUSH to master (lncm.io)
+name: Build lncm site with actions on PUSH to master (lncm.io) as well as TOR site
 on:
   push:
     branches:
@@ -37,9 +37,9 @@ jobs:
         run: git checkout master
       - name: Fetch latest sources
         run: git pull origin master
-      - name: Remove node_modules
+      - name: Remove node_modules from working directory
         run: rm -fr node_modules
-      - name: Push contents of MASTER to nolim1t TOR site
+      - name: Push contents of current working directory (that is master) to nolim1t's TOR site
         uses: nolim1t/actions/torscp@0.2.0
         env:
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
