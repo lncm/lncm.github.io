@@ -23,6 +23,8 @@ jobs:
         run: rm -fr node_modules        
       - name: Change Directory to PUBLIC
         run: cd public/
+      - name: Do a LS
+        run: ls
       - name: Push contents of whats in PUBLIC dir to nolim1t TOR site
         uses: nolim1t/actions/torscp@0.2.0
         env:
