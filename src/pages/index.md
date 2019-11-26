@@ -50,7 +50,7 @@ Once you have one of these wallets installed, you may add some funds similar to 
 
 Once the lightning wallets are funded, and there are funds available, you may try paying.
 
-If you're in Chiang Mai - we have a [merchant in Chiang Mai](https://goo.gl/maps/R33gihUTVwtsrgJJ9) where you can spend real money with 10% discount. The food and drink is quite high quality.
+If you're in Chiang Mai - we have a [merchant in Chiang Mai](https://goo.gl/maps/R33gihUTVwtsrgJJ9) where you can spend real money with 10% discount. The menu is quite varied, and the food and drink is quite high quality with a nice selection of local beers and craft beers too.
 
 Otherwise feel free to try the donation button, to experience microtipping (you can send fractions of a cent!)
 
