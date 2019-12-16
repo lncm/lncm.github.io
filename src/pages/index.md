@@ -54,5 +54,5 @@ If you're in Chiang Mai - we have a [merchant in Chiang Mai](https://goo.gl/maps
 
 Otherwise feel free to try the donation button, to experience microtipping (you can send fractions of a cent!)
 
-<div id="bottle-payment-button" data-corner="25px" data-fill="filled" data-size="small" data-color="#000000" data-textColor="#FFD54F" data-service="bottle" data-name="Donate%20to%20LNCM" data-avatar="https://cdn.bottle.li/userimg/a6a7a37fb60c1d66cee5c8f2fbe8151f4e4541bc660f6e72fcef13bbf24f84f6.jpg" data-username="mZc5hVov9V5vhPNAjPnM3W26W4rwgKDq3wGb8W87hLwX" data-text="donate" data-url="https://pay.bottle.li/send/social/" ></div>
-<script src="https://cdn.bottle.li/button/bb.min.js"></script>
+<div id="tippin-button" data-dest="lncnx" data-dark="true"></div>
+<script src="https://tippin.me/buttons/tip.js?0001" type="text/javascript"></script>
