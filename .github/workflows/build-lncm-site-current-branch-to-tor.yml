@@ -1,4 +1,4 @@
-name: Build TOR SITE only
+name: Build TOR SITE only on pull request
 on:
   pull_request:
     branches: source
