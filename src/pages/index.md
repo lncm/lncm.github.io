@@ -36,6 +36,8 @@ Wallets where you have full control over your funds
 - iOS and Android: [Breez Wallet](https://breez.technology/)
 - Linux/Windows/Mac/Mobile: [Lightning labs desktop](https://github.com/lightninglabs/lightning-app)  [Android/iOS version](https://github.com/lightninglabs/lightning-app/tree/master/mobile)
 - Android only: [Eclair Wallet](https://github.com/ACINQ/eclair-mobile)
+- Raspberry PI (with collaboration with LNCM contributors): [Umbrel Node](https://github.com/getumbrel/umbrel-os/releases/tag/v0.0.2-build20200609) 
+- *NIX if you have some CLI skills: [docker-compose Umbrel node in a box](https://github.com/getumbrel/umbrel-compose) or [docker-compose Vanilla node in a box](https://github.com/lncm/thebox-compose-system)
 
 ### Custodial Wallets
 
@@ -49,8 +51,6 @@ Wallets where you don't have full control of your funds (works like a bank, but 
 Once you have one of these wallets installed, you may add some funds similar to how you would fund a normal wallet. 
 
 Once the lightning wallets are funded, and there are funds available, you may try paying.
-
-If you're in Chiang Mai - we have a [merchant in Chiang Mai](https://goo.gl/maps/R33gihUTVwtsrgJJ9) where you can spend real money with 10% discount. The menu is quite varied, and the food and drink is quite high quality with a nice selection of local beers and craft beers too.
 
 Otherwise feel free to try the donation button, to experience microtipping (you can send fractions of a cent!)
 
