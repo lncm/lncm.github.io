@@ -37,7 +37,7 @@ Wallets where you have full control over your funds
 - Linux/Windows/Mac/Mobile: [Lightning labs desktop](https://github.com/lightninglabs/lightning-app)  [Android/iOS version](https://github.com/lightninglabs/lightning-app/tree/master/mobile)
 - Android only: [Eclair Wallet](https://github.com/ACINQ/eclair-mobile)
 - Raspberry PI (with collaboration with LNCM contributors): [Umbrel Node](https://github.com/getumbrel/umbrel-os/releases/tag/v0.0.2-build20200609) 
-- *NIX if you have some CLI skills: [docker-compose Umbrel node in a box](https://github.com/getumbrel/umbrel-compose) or [docker-compose Vanilla node in a box](https://github.com/lncm/thebox-compose-system)
+- *NIX if you have some CLI skills: [docker-compose Umbrel node in a box](https://github.com/getumbrel/umbrel) or [docker-compose Vanilla node in a box](https://github.com/lncm/thebox-compose-system)
 
 ### Custodial Wallets
 
