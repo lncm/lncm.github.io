@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm run develop",
     "develop": "gatsby develop",
-    "build": "rm -rf public && gatsby build && echo 'lncm.io' > ./public/CNAME",
+    "build": "rm -rf public && gatsby build && echo 'lncm.github.io' > ./public/CNAME",
     "serve": "gatsby serve",
     "deploy": "gh-pages -d public -b master"
   },
