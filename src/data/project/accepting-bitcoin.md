@@ -69,6 +69,7 @@ options.
 #### Apps To Accept Bitcoin: Probably The Simplest Way That Works
 
 - recommended apps (breez, samourai, whatever wallet)
+- link to [nol1mit's page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/)
 
 #### Commercial Payment Processors: How Most eCommerce Shops Do It
 
