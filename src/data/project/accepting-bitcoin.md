@@ -74,16 +74,18 @@ very significant disadvantages (among other things, it means everyone can see
 how much money you are taking in) it nevertheless still works.
 
 The slightly more sophisticated variation on this idea is to sign up for an
-account at a major cryptocurrency exchange (like Binance or Bitstamp), go to
-the account page, and generate a "deposit address". Some exchanges (such as
-Bitstamp) will even auto-convert incoming payments to fiat currency, if you
-tell them to.
+account at a major cryptocurrency exchange (like
+[Binance](https://www.binance.com/en) or
+[Bitstamp](https://www.bitstamp.com/)), go to the account page, and generate a
+"deposit address". Some exchanges (such as Bitstamp) will even auto-convert
+incoming payments to fiat currency, if you tell them to.
 
 Unfortunately, while this approach is very quick and easy to set up, it
 comes with major drawbacks:
 * The whole world can see your incoming payments
 * You have to manually check the address (probably using a blockchain explorer
-  website like Blockstream.info or Mempool.space) to see if a payment comes in
+  website like [Blockstream.info](https://blockstream.info/) or
+  [Mempool.space](https://mempool.space/)) to see if a payment comes in
 * The address is permanently associated with "you", so anyone looking at your
   clients' transactions will see they did business with you, how often, and how
   much money they spent
@@ -98,12 +100,21 @@ Installing an app on your phone is easy. If you're running a retail business
 where customers walk in the door and personally deal with you and your staff,
 it may be all you need.
 
-Here's a list of apps shamelessly copied from [nol1mit's page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/):
+Here's a list of apps shamelessly copied from [nol1mit's
+page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/):
 
-* [Muun Wallet](https://muun.com/) - For accepting both bitcoin and bitcoin lightning payments. Since it doesn't require you to manage channels, it's very easy.
-* [Phoenix Wallet](https://phoenix.acinq.co/) - For accepting lightning payments as well as bitcoin onchain. However this is Android only with a beta for iOS. Its promising, however you need to send an onchain payment first to open the initial lightning channels.
-* [Breez Wallet](https://breez.technology/) - For accepting **Bitcoin Lightning** payments. You can set up prices for your items in the app too. Available on Android and iOS.
-* [Coinnomi Wallet](https://www.coinomi.com/en/) - For accepting **on chain** payments. Available on Android and iOS.
+* [Muun Wallet](https://muun.com/) - For accepting both bitcoin and bitcoin
+  lightning payments. Since it doesn't require you to manage channels, it's
+  very easy.
+* [Phoenix Wallet](https://phoenix.acinq.co/) - For accepting lightning
+  payments as well as bitcoin onchain. However this is Android only with a beta
+  for iOS. Its promising, however you need to send an onchain payment first to
+  open the initial lightning channels.
+* [Breez Wallet](https://breez.technology/) - For accepting **Bitcoin
+  Lightning** payments. You can set up prices for your items in the app too.
+  Available on Android and iOS.
+* [Coinnomi Wallet](https://www.coinomi.com/en/) - For accepting **on chain**
+  payments. Available on Android and iOS.
 
 ##### What The Heck Is A "Lightning Channel"?
 
@@ -152,9 +163,15 @@ this case, they are handling Bitcoin payments.
 
 Here are a few examples:
 
-* Coingate
-* Coinify
-* CoinPayments.NET
+* [Coingate](https://coingate.com/): allows you to accept both Lightning and
+  on-chain payments seamlessly. Has integrations for Magento, Woocommerce,
+  Opencart, WHMCS, oscommerce, Zencart, ... and lots more.
+* [Coinify](https://www.coinify.com/): has integrations, but they are a large
+  company and you have to sign up for an account to see which plugins are
+  currently available.
+* [CoinPayments](https://www.coinpayments.net/): makes it easy to accept
+  hundreds (or thousands!) of different cryptocurrencies. Integrates with
+  Magento, Shopify, Woocommerce, Opencart, and more
 
 One payment processor we specifically recommend *against* is BitPay.
 Unfortunately, they've set up so many restrictions and barriers to actually
@@ -186,11 +203,43 @@ about.
 currency, like EUR or THB. Any company you rely on to do that can still
 terminate the relationship. However, there are many alternative options, so
 it's not such a big deal. For example, a peer-to-peer exchange like
-[Bisq](TODO) or [HodlHodl](TODO) is nearly impossible to get booted from.)
+[Bisq](https://bisq.network/) or [HodlHodl](https://hodlhodl.com/) is nearly impossible to get booted from.)
 
-- BTCPayServer
-    - hosting headaches: https://medium.com/@BtcpayServer/hosting-btcpay-server-for-cheap-2b27761fdb9d
-- local node solutions and what they offer and how well they actually work
+But that's *definitely* not the only reason to use a self-hosted solution!
+
+Self-hosted payment processing means:
+- you don't have to pay fees to a payment processing company (and the fees add
+  up!)
+- your business remains your business: no 3rd-party company can see who your
+  customers are or what people are buying from you
+- you can customise your setup to your needs, and,
+- your system will stay how *you* want it to be so, you'll never have changes
+  forced down your throat by a 3rd-party corporate entity which is looking to
+  cut costs and enhance shareholder value at your expense.
+
+Now let's look at how you can turn all this into reality.
+
+##### Self-Hosted Options
+
+For all of these, you need access to at least some technical expertise. Either
+you're a geek yourself, or you know a geek who's willing to help on an ongoing
+basis.
+
+* [Umbrel](https://getumbrel.com):
+  [nolim1t's](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/)
+  favorite. His words: "This requires a little bit of technical chops, but it
+  offers the best first class experience for bitcoin and lightning users. Not
+  to mention access to this is available on any web browser."
+* [BTCPayServer](https://btcpayserver.org/): Far and away the most widely used.
+  BTCPayServer can be used both for retail and ecommerce payment processing. It
+  accepts Lightning payments, and has all kinds of other tricks up its sleeve.
+  However, it is somewhat more complex to set up than Umbrel. If you don't have
+  a server on your premises, [options are
+  available](https://medium.com/@BtcpayServer/hosting-btcpay-server-for-cheap-2b27761fdb9d)
+  assuming you or your tech people have some understanding of server
+  administration.
+* [MyNodeBTC](https://mynodebtc.com/)
+* [RaspiBlitz](https://github.com/rootzoll/raspiblitz): "The oldest and most battle-tested." --nolim1t
 
 ### The Boring Part: Tax Reporting
 
