@@ -71,17 +71,26 @@ The fact is, accepting Bitcoin payments is fundamentally easy. For most of
 Bitcoin's existence, people often just posted a "Bitcoin address" on their
 website and used it like a bank account. While this approach has numerous and
 very significant disadvantages (among other things, it means everyone can see
-ho wmuch money you are taking in) it nevertheless still works.
+how much money you are taking in) it nevertheless still works.
 
 The slightly more sophisticated variation on this idea is to sign up for an
-account at a major cryptocurrency address, go to the account page, and generate
-a "deposit address". Some exchanges will even auto-convert incoming payments to
-fiat currency, if you tell them to.
+account at a major cryptocurrency exchange (like Binance or Bitstamp), go to
+the account page, and generate a "deposit address". Some exchanges (such as
+Bitstamp) will even auto-convert incoming payments to fiat currency, if you
+tell them to.
 
 Unfortunately, while this approach is very quick and easy to set up, it
-potentially comes with major problems. Sooner or later you *will* outgrow it
-and need something more sophisticated. Therefore, let's look at the "real"
-options.
+comes with major drawbacks:
+* The whole world can see your incoming payments
+* You have to manually check the address (probably using a blockchain explorer
+  website like Blockstream.info or Mempool.space) to see if a payment comes in
+* The address is permanently associated with "you", so anyone looking at your
+  clients' transactions will see they did business with you, how often, and how
+  much money they spent
+
+Even if this very rudimentary approach does the trick for the moment, sooner or
+later you *will* outgrow it and need something more sophisticated. Therefore,
+let's look at the "real" options.
 
 #### Apps To Accept Bitcoin: Probably The Simplest Way That Works
 
@@ -135,10 +144,11 @@ higher cost) is a good idea.
 
 So far we've talked about local apps that you can run on your mobile device.
 That, as convenient as it may be, simply isn't an option for e-commerce
-businesses, where the payments have to be processed automatically. Fortunately,
-there are plenty of Bitcoin payment processors who are happy to provide the
-same service that a credit-card payment processor would, except in this case,
-they are handling Bitcoin payments.
+businesses, where the payments have to be processed automatically.
+
+Fortunately, there are plenty of Bitcoin payment processors who are happy to
+provide the same service that a credit-card payment processor would, except in
+this case, they are handling Bitcoin payments.
 
 Here are a few examples:
 
@@ -149,16 +159,35 @@ Here are a few examples:
 One payment processor we specifically recommend *against* is BitPay.
 Unfortunately, they've set up so many restrictions and barriers to actually
 completing the order that using them may lead to losing sales, when customers
-throw up their hands in frustration! (For example: customers have to register
-for a separate account with them, then customers have to upload their
-government ID to BitPay, and then customers can only send from very specific
-Bitcoin wallets to BitPay in order to complete the transaction. It's sheer
-madness.)
+throw up their hands in frustration!
+
+(A few examples: customers have to register for a separate account with them,
+then customers have to upload their government ID to BitPay, and then customers
+can only send from very specific Bitcoin wallets to BitPay in order to complete
+the transaction. It's sheer madness.)
 
 
 #### All The Freedom, None Of The Middlemen: Self-Hosted Solutions Are Easier Than You'd Think
 
-Now that we've got all the 
+Now that we've got all the 3rd party options, let's cover the "gold standard"
+of accepting Bitcoin payments: solutions where you control *everything*, and
+nobody can stop you from getting paid.
+
+##### Wait, Nobody Can Ever Stop Me Getting Paid? You Really Mean That?
+
+Absolutely. A self-hosted, self-custody Bitcoin payment back-end means you are
+pretty much ban- and cancel-proof. You're no longer at the mercy of companies
+who might decide to drop you for any number of reasons and thereby cut off your
+financial air supply. Now, anyone who wants to mess with you has to put in a
+whole lot more effort -- and if they do, you've got bigger problems to worry
+about.
+
+(Note: you may still have to turn your incoming Bitcoin into local fiat
+currency, like EUR or THB. Any company you rely on to do that can still
+terminate the relationship. However, there are many alternative options, so
+it's not such a big deal. For example, a peer-to-peer exchange like
+[Bisq](TODO) or [HodlHodl](TODO) is nearly impossible to get booted from.)
+
 - BTCPayServer
     - hosting headaches: https://medium.com/@BtcpayServer/hosting-btcpay-server-for-cheap-2b27761fdb9d
 - local node solutions and what they offer and how well they actually work
