@@ -68,18 +68,40 @@ options.
 
 #### Apps To Accept Bitcoin: Probably The Simplest Way That Works
 
-- recommended apps (breez, samourai, whatever wallet)
-- link to [nol1mit's page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/)
+Installing an app on your phone is easy. If you're running a retail business
+where customers walk in the door and personally deal with you and your staff,
+it may be all you need.
+
+Here's a list of apps shamelessly copied from [nol1mit's page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/):
+
+* [Muun Wallet](https://muun.com/) - For accepting both bitcoin and bitcoin lightning payments. Since it doesn't require you to manage channels, it's very easy.
+* [Phoenix Wallet](https://phoenix.acinq.co/) - For accepting lightning payments as well as bitcoin onchain. However this is Android only with a beta for iOS. Its promising, however you need to send an onchain payment first to open the initial lightning channels.
+* [Breez Wallet](https://breez.technology/) - For accepting **Bitcoin Lightning** payments. You can set up prices for your items in the app too. Available on Android and iOS.
+* [Coinnomi Wallet](https://www.coinomi.com/en/) - For accepting **on chain** payments. Available on Android and iOS.
+
+##### What The Heck Is A "Lightning Channel"?!
+
+- TODO: point to some resources on this
 
 #### Commercial Payment Processors: How Most eCommerce Shops Do It
 
 - recommended payment processors and the trade-offs involved (btcpayserver vs coingate/etc)
 
+- Coingate
+- Coinify
+- CoinPayments.NET
+
+
 #### All The Freedom, None Of The Middlemen: Self-Hosted Solutions Are Easier Than You'd Think
 
+- BTCPayServer
+    - hosting headaches: https://medium.com/@BtcpayServer/hosting-btcpay-server-for-cheap-2b27761fdb9d
 - local node solutions and what they offer and how well they actually work
 
 ### The Boring Part: Tax Reporting
 
 - tax issues and reporting, automated tools for exporting relevant data in an accountant-friendly format
 
+### Further Reading
+
+- Check out [nol1mit's page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/), on which a good deal of this writeup is based
