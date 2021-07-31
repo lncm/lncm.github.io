@@ -1,11 +1,15 @@
 ## How To Accept Bitcoin Payments (For Small Business Owners)
 
-Welcome to Bitcoin! Accepting Bitcoin payments in your business has lots of
-advantages: you'll attract new customers, give yourself the option to
-accumulate your own Bitcoin investment with zero effort, show the world that
-you're ahead of the curve, and free yourself (at least a little bit) from
-blood-sucking credit card processors. (Oh, and with Bitcoin, you never have to
-worry about chargebacks!)
+Welcome to Bitcoin!
+
+Accepting Bitcoin payments in your business has lots of
+advantages. You'll:
+- attract new customers,
+- give yourself the option to accumulate your own Bitcoin investment with zero effort,
+- show the world that you're ahead of the curve, and,
+- free yourself (at least a little bit) from blood-sucking credit card processors.
+
+(Oh, and with Bitcoin, you never have to worry about chargebacks!)
 
 Unfortunately, with all this freedom and power comes at least a little bit of
 responsibility. And the Bitcoin ecosystem can be pretty confusing. Let's try to
@@ -38,6 +42,19 @@ Accepting Bitcoin payments generally looks something like this:
 As you might guess, most of the complexity lies in the payment processing
 back-end. And as with everything these days, you have quite a few options for
 how to set this up.
+
+### The "One True Way"
+
+Let's get one thing out of the way first. Whenever you talk to "serious"
+Bitcoin people about accepting payments, they will sooner or later suggest
+[BTCPayServer](https://btcpayserver.org/) as the solution. And they're mostly
+right: if you have the technical chops to get it going, it's usually the best
+approach in the long run.
+
+However, that doesn't mean it's the best approach for your particular
+situation, or the best approach for you *right now*. Let's look at how
+everything fits together first, and what the alternatives are, then you can
+make an informed decision.
 
 ### The 4 Basic Choices You Have
 
@@ -79,21 +96,69 @@ Here's a list of apps shamelessly copied from [nol1mit's page](https://nolim1t.g
 * [Breez Wallet](https://breez.technology/) - For accepting **Bitcoin Lightning** payments. You can set up prices for your items in the app too. Available on Android and iOS.
 * [Coinnomi Wallet](https://www.coinomi.com/en/) - For accepting **on chain** payments. Available on Android and iOS.
 
-##### What The Heck Is A "Lightning Channel"?!
+##### What The Heck Is A "Lightning Channel"?
 
-- TODO: point to some resources on this
+Now wait a minute. We mentioned "lightning channels" a couple of times. If
+you're going to accept Lightning (instantaneous) Bitcoin payments, you should
+probably understand what they are and why "managing" them is so important.
+
+In a nutshell, a "Lightning channel" is an agreement between you and some 3rd
+party (who you either have to trust a little bit, or don't have to trust at
+all, depending on how you set things up). The agreement allows you to receive
+(or send) payments through them to other members of the Lightning Network to
+whom that 3rd party is connected.
+
+If all you're going to do is *send* money, setting up one of these agreements
+is easy: you "lock" (escrow) your money up to pre-fund the channel, and once
+you've sent all the money to various people, your Lightning channel
+counterparty gets to keep all the money (with your agreement, of course). It's
+a pretty good deal for the other side!
+
+(And yes, you can "close" the channel any time you want, with the balance being
+divided up appropriately between both of you. They can also close it, if they
+want.)
+
+However, if you are mostly *receiving* money, then it is your counterparty who
+has to commit their money to the channel. This ties up their capital for some
+period of time, and it makes things a little complex.
+
+(Why would they commit their capital to help you receive money? Either because
+they are earning fees on your transactions -- generally *much smaller fees*
+than what you would pay for credit card processors -- or because you are
+outright paying them to do it.)
+
+Therefore, if you're just starting out and want to accept Lightning payments,
+choosing a wallet that will manage these issues for you (generally at slightly
+higher cost) is a good idea.
 
 #### Commercial Payment Processors: How Most eCommerce Shops Do It
 
-- recommended payment processors and the trade-offs involved (btcpayserver vs coingate/etc)
+So far we've talked about local apps that you can run on your mobile device.
+That, as convenient as it may be, simply isn't an option for e-commerce
+businesses, where the payments have to be processed automatically. Fortunately,
+there are plenty of Bitcoin payment processors who are happy to provide the
+same service that a credit-card payment processor would, except in this case,
+they are handling Bitcoin payments.
 
-- Coingate
-- Coinify
-- CoinPayments.NET
+Here are a few examples:
+
+* Coingate
+* Coinify
+* CoinPayments.NET
+
+One payment processor we specifically recommend *against* is BitPay.
+Unfortunately, they've set up so many restrictions and barriers to actually
+completing the order that using them may lead to losing sales, when customers
+throw up their hands in frustration! (For example: customers have to register
+for a separate account with them, then customers have to upload their
+government ID to BitPay, and then customers can only send from very specific
+Bitcoin wallets to BitPay in order to complete the transaction. It's sheer
+madness.)
 
 
 #### All The Freedom, None Of The Middlemen: Self-Hosted Solutions Are Easier Than You'd Think
 
+Now that we've got all the 
 - BTCPayServer
     - hosting headaches: https://medium.com/@BtcpayServer/hosting-btcpay-server-for-cheap-2b27761fdb9d
 - local node solutions and what they offer and how well they actually work
