@@ -362,14 +362,18 @@ deal... that was "free money," which you wouldn't have normally made anyway.
 
 ### The Boring Part: Tax Reporting
 
-First off, start by checking with your accountant what data they need from you,
-and in which format. This may end up being a key factor in which payment
-solution you decide to use.
+First off, start by checking with your accountant (or accounting software) what
+data they need from you, and in which format. This may end up being a key
+factor in which payment solution you decide to use.
 
 Commercial payment processors and BTCPayServer all support a variety of data
 export formats. The same goes for Bitcoin exchanges (the centralized kind).
 Mobile apps and decentralized exchanges tend to be much more of a mixed bag in
 this respect.
+
+If you really need a specific format for your accountant (or accounting
+software package) then you will probably have to look at several different
+payment solutions until you find one that delivers exactly that.
 
 ### Further Reading
 
