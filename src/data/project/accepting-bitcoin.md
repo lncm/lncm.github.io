@@ -10,6 +10,7 @@
   - [Further Reading](#further-reading)
 
 <!--TOC-->
+<!-- Generate TOC with `md_toc -p github accepting-bitcoin.md` -->
 
 ## How To Accept Bitcoin Payments (For Small Business Owners)
 
