@@ -159,7 +159,23 @@ Now wait a minute. We mentioned "lightning channels" a couple of times. If
 you're going to accept Lightning (instantaneous) Bitcoin payments, you should
 probably understand what they are and why "managing" them is so important.
 
-In a nutshell, a "Lightning channel" is an agreement between you and some 3rd
+None of this matters if you only accept "on-chain" (normal) Bitcoin payments.
+On-chain payments are very simple. Unfortunately, they also take time (at least
+10 minutes, on average) and the fees your customers have to pay may be
+substantial. If your customers can make Lightning payments to you, the payment
+becomes more or less instantaneous, and fees are effectively zero.
+
+If your transactions are small and frequent (like a coffee shop or an
+inexpensive web hosting service) then being able to pay with Lightning is
+hugely beneficial. On the other hand, if your customers are primarily making
+very large transactions, the simplicity and very high security level of
+on-chain (non-Lightning) payments will tend to be more important.
+
+Since most small businesses will want at least the option to accept Lightning
+payments, it's helpful to understand some basics about the technology.
+
+The Lightning Network is based on relationships between parties, called
+"channels." Each "Lightning channel" is an agreement between you and some 3rd
 party (who you either have to trust a little bit, or don't have to trust at
 all, depending on how you set things up). The agreement allows you to receive
 (or send) payments through them to other members of the Lightning Network to
