@@ -21,9 +21,10 @@ If you just want to get going right now, there are 2 easy solutions:
 * If you run a brick-and-mortar business, skip ahead to the section on [using
   apps to accept
   Bitcoin](#apps-to-accept-bitcoin-probably-the-simplest-way-that-works).
-* If you run an e-commerce web shop, take a look at setting up a [¢ommercial
+* If you run an e-commerce web shop, take a look at setting up a [commercial
   cryptocurrency payment
-  processor](#commercial-payment-processors-how-most-ecommerce-shops-do-it)
+  processor](#commercial-payment-processors-how-most-ecommerce-shops-do-it) for
+  your webshop.
 
 However, like everything in life, the more you know, the better you can make
 decisions. So let's start with a little bit of theory.
