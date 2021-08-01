@@ -240,9 +240,11 @@ about.
 currency, like EUR or THB. Any company you rely on to do that can still
 terminate the relationship. However, there are many alternative options, so
 it's not such a big deal. For example, a peer-to-peer exchange like
-[Bisq](https://bisq.network/) or [HodlHodl](https://hodlhodl.com/) is nearly impossible to get booted from.)
+[Bisq](https://bisq.network/) or [HodlHodl](https://hodlhodl.com/) is nearly
+impossible to get booted from.)
 
-But that's *definitely* not the only reason to use a self-hosted solution!
+But making yourself ban-proof is *definitely* not the only reason to use a
+self-hosted solution!
 
 Self-hosted payment processing means:
 - you don't have to pay fees to a payment processing company (and the fees add
@@ -274,8 +276,9 @@ Bitcoin network. The second option generally provides everything in one device.
 * [BTCPayServer](https://btcpayserver.org/): Far and away the most widely used.
   BTCPayServer can be used both for retail and ecommerce payment processing. It
   accepts Lightning payments, and has all kinds of other tricks up its sleeve.
-  However, it is somewhat more complex to set up on its own than an "all-in-one" solution. If you don't have
-  a server on your premises, [options are
+  However, it is somewhat more complex to set up on its own than an
+  "all-in-one" solution. If you don't have a server on your premises, [options
+  are
   available](https://medium.com/@BtcpayServer/hosting-btcpay-server-for-cheap-2b27761fdb9d)
   assuming you or your tech people have some understanding of server
   administration. All that said, all-in-one solutions (like the ones listed
@@ -370,4 +373,6 @@ this respect.
 
 ### Further Reading
 
-- Check out [nol1mit's page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/), on which a good deal of this writeup is based
+- Check out [nol1mit's
+  page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/), on which a
+  good deal of this writeup is based
