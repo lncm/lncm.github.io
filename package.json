@@ -7,6 +7,7 @@
     "develop": "gatsby develop",
     "build": "rm -rf public && gatsby build && echo 'lncm.github.io' > ./public/CNAME",
     "serve": "gatsby serve",
+    "clean": "rm -rf .cache public",
     "deploy": "gh-pages -d public -b master"
   },
   "dependencies": {
