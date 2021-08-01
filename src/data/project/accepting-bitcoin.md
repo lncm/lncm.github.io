@@ -2,7 +2,6 @@
 
 - [How To Accept Bitcoin Payments (For Small Business Owners)](#how-to-accept-bitcoin-payments-for-small-business-owners)
   - [What's The Fastest Way To Get Started?](#whats-the-fastest-way-to-get-started)
-  - [What We'll Cover](#what-well-cover)
   - [The Bitcoin Payments Workflow (And How It Ends With Money In Your Pocket)](#the-bitcoin-payments-workflow-and-how-it-ends-with-money-in-your-pocket)
   - [The "One True Way"](#the-one-true-way)
   - [The 4 Basic Choices You Have](#the-4-basic-choices-you-have)
