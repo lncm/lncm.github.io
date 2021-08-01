@@ -1,24 +1,21 @@
 ---
-title: How To Accept Bitcoin Payments
+title: How To Accept Bitcoin Payments (For Small Business Owners)
 date: "2021-08-01"
-cover_image: "../static/cardboard-box.jpg"
+cover_image: "../static/register.jpg"
 ---
 
 <!--TOC-->
 
-- [How To Accept Bitcoin Payments (For Small Business Owners)](#how-to-accept-bitcoin-payments-for-small-business-owners)
-  - [What's The Fastest Way To Get Started?](#whats-the-fastest-way-to-get-started)
-  - [The Bitcoin Payments Workflow (And How It Ends With Money In Your Pocket)](#the-bitcoin-payments-workflow-and-how-it-ends-with-money-in-your-pocket)
-  - [The "One True Way"](#the-one-true-way)
-  - [The 4 Basic Choices You Have](#the-4-basic-choices-you-have)
-  - [Turning Your Bitcoin Into Local Fiat Currency](#turning-your-bitcoin-into-local-fiat-currency)
-  - [The Boring Part: Tax Reporting](#the-boring-part-tax-reporting)
-  - [Further Reading](#further-reading)
+- [What's The Fastest Way To Get Started?](#whats-the-fastest-way-to-get-started)
+- [The Bitcoin Payments Workflow (And How It Ends With Money In Your Pocket)](#the-bitcoin-payments-workflow-and-how-it-ends-with-money-in-your-pocket)
+- [The "One True Way"](#the-one-true-way)
+- [The 4 Basic Choices You Have](#the-4-basic-choices-you-have)
+- [Turning Your Bitcoin Into Local Fiat Currency](#turning-your-bitcoin-into-local-fiat-currency)
+- [The Boring Part: Tax Reporting](#the-boring-part-tax-reporting)
+- [Further Reading](#further-reading)
 
 <!--TOC-->
 <!-- Generate TOC with `md_toc -p github accepting-bitcoin.md` -->
-
-## How To Accept Bitcoin Payments (For Small Business Owners)
 
 Welcome to Bitcoin!
 
