@@ -1,3 +1,9 @@
+---
+title: How To Accept Bitcoin Payments
+date: "2021-08-01"
+cover_image: "../static/cardboard-box.jpg"
+---
+
 <!--TOC-->
 
 - [How To Accept Bitcoin Payments (For Small Business Owners)](#how-to-accept-bitcoin-payments-for-small-business-owners)
