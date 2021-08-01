@@ -15,6 +15,19 @@ Unfortunately, with all this freedom and power comes at least a little bit of
 responsibility. And the Bitcoin ecosystem can be pretty confusing. Let's try to
 fix that.
 
+### What's The Fastest Way To Get Started?
+
+If you just want to get going right now, there are 2 easy solutions:
+* If you run a brick-and-mortar business, skip ahead to the section on [using
+  apps to accept
+  Bitcoin](#apps-to-accept-bitcoin-probably-the-simplest-way-that-works).
+* If you run an e-commerce web shop, take a look at setting up a [¢ommercial
+  cryptocurrency payment
+  processor](#commercial-payment-processors-how-most-ecommerce-shops-do-it)
+
+However, like everything in life, the more you know, the better you can make
+decisions. So let's start with a little bit of theory.
+
 ### The Bitcoin Payments Workflow (And How It Ends With Money In Your Pocket)
 
 Accepting Bitcoin payments generally looks something like this:
@@ -100,6 +113,16 @@ Installing an app on your phone is easy. If you're running a retail business
 where customers walk in the door and personally deal with you and your staff,
 it may be all you need.
 
+For a brick-and-mortar shop, the process of getting started with an app may be
+as simple as:
+1. Install the app on a mobile device which you can leave by the cash register
+   all the time. Buy a cheap Android device or second-hand iPhone if necessary.
+1. The app will display a "backup phrase" which gives access to all funds. Make
+   sure to write this down and keep it in your safe, or another safe place
+1. Periodically move money out of the mobile wallet app, when the amount of
+   "cash" you've received in Bitcoin exceeds the amount of cash in the cash
+   register.
+
 Here's a list of apps shamelessly copied from [nol1mit's
 page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/):
 
@@ -108,8 +131,7 @@ page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/):
   very easy.
 * [Phoenix Wallet](https://phoenix.acinq.co/) - For accepting lightning
   payments as well as bitcoin onchain. However this is Android only with a beta
-  for iOS. Its promising, however you need to send an onchain payment first to
-  open the initial lightning channels.
+  for iOS.
 * [Breez Wallet](https://breez.technology/) - For accepting **Bitcoin
   Lightning** payments. You can set up prices for your items in the app too.
   Available on Android and iOS.
@@ -225,25 +247,111 @@ For all of these, you need access to at least some technical expertise. Either
 you're a geek yourself, or you know a geek who's willing to help on an ongoing
 basis.
 
+There are two categories of self-hosted solutions:
+1. payment software packages, and
+1. fully integrated "boxes".
+
+The first assume you have all the ancillary systems set up to talk to the
+Bitcoin network. The second option generally provides everything in one device.
+
+###### Be Your Own Payment Processor
+
+* [BTCPayServer](https://btcpayserver.org/): Far and away the most widely used.
+  BTCPayServer can be used both for retail and ecommerce payment processing. It
+  accepts Lightning payments, and has all kinds of other tricks up its sleeve.
+  However, it is somewhat more complex to set up on its own than an "all-in-one" solution. If you don't have
+  a server on your premises, [options are
+  available](https://medium.com/@BtcpayServer/hosting-btcpay-server-for-cheap-2b27761fdb9d)
+  assuming you or your tech people have some understanding of server
+  administration. All that said, all-in-one solutions (like the ones listed
+  below) often provide an instance of BTCPayServer out of the box, so you don't
+  have to deal with the complexity.
+
+###### Full-Node-In-A-Box
+
+Many of these provide BTCPayServer "ready to go," though each one has its
+quirks. Like any all-in-one solution, you mostly have to accept the design
+choices they make. If one turns out not to be right for you, try the next one.
+
 * [Umbrel](https://getumbrel.com):
   [nolim1t's](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/)
   favorite. His words: "This requires a little bit of technical chops, but it
   offers the best first class experience for bitcoin and lightning users. Not
   to mention access to this is available on any web browser."
-* [BTCPayServer](https://btcpayserver.org/): Far and away the most widely used.
-  BTCPayServer can be used both for retail and ecommerce payment processing. It
-  accepts Lightning payments, and has all kinds of other tricks up its sleeve.
-  However, it is somewhat more complex to set up than Umbrel. If you don't have
-  a server on your premises, [options are
-  available](https://medium.com/@BtcpayServer/hosting-btcpay-server-for-cheap-2b27761fdb9d)
-  assuming you or your tech people have some understanding of server
-  administration.
-* [MyNodeBTC](https://mynodebtc.com/)
-* [RaspiBlitz](https://github.com/rootzoll/raspiblitz): "The oldest and most battle-tested." --nolim1t
+* [MyNodeBTC](https://mynodebtc.com/): Offers a fully configured hardware
+  device for purchase, so you just plug it in and go.
+* [RaspiBlitz](https://github.com/rootzoll/raspiblitz): "The oldest and most
+  battle-tested." --nolim1t. There is also a semi-complete version [available
+  for purchase from Fulmo](https://shop.fulmo.org/raspiblitz/) in case you
+  don't want to deal with sourcing the hardware yourself. It does include
+  BTCPayServer as a "ready to switch on" option. It is designed for people who
+  already understand the world of Bitcoin, so may be a little less user
+  friendly for total beginners.
+
+### Turning Your Bitcoin Into Local Fiat Currency
+
+Since your suppliers probably don't accept Bitcoin, at some point you need to
+turn at least some of your profits into local fiat currency, like EUR or THB or
+USD.
+
+The commercial payment providers discussed above will (optionally) do this for
+you. Like any other payment processor, they will deposit local currency to your
+bank account according to the Bitcoin which you receive. Alternately, most of
+them will let you keep the Bitcoin as Bitcoin, and "cash out" to your personal
+wallet.
+
+For mobile apps and self-hosted solutions, you have to convert to local
+currency separately.  You generally do this via an exchange, either a
+centralized one or a decentralized one.
+
+Centralized exchanges are easy to use but have bureaucratic overhead (you have
+to get verified, there may be limits, and they can close your account if they
+decide they don't like you). Examples of centralized exchanges include:
+
+* [Binance](https://www.binance.com/en)
+* [Bitstamp](https://www.bitstamp.com/)
+
+Decentralized exchanges are a bit harder to get started with, but there is no
+verification, no bureaucracy, and it's very difficult for anyone to stop you
+from using them. For exammple, we've already mentioned:
+
+* [Bisq](https://bisq.network/)
+* [HodlHodl](https://hodlhodl.com/)
+
+Now one big question is... when should you go and sell the Bitcoin that you
+receive?
+
+If your profit margins are thin, you may not have any choice in the matter. You
+need the money to pay for goods and pay your employees!
+
+However, if you are providing digital downloads or another very high-margin
+product, you can turn accepting Bitcoin through your business into something
+really neat: a way to accumulate Bitcoin for investment at no cost to you!
+
+Here's how it works:
+
+You will probably notice that a lot of the customers paying Bitcoin in your
+business are customers who would normally not have purchased from you at all.
+These are extra sales, supplemental to the ones you usually make.
+
+If your cost-per-sale is zero, or close to zero, then once you've covered your
+overhead then each additional sale is free money.
+
+Since these sales are bringing in Bitcoin, you can simply keep the Bitcoin they
+send you and hold ("hodl") it in the long term. If the price goes up
+dramatically, fantastic -- you're rich! If the price goes down, it's no big
+deal... that was "free money," which you wouldn't have normally made anyway.
 
 ### The Boring Part: Tax Reporting
 
-- tax issues and reporting, automated tools for exporting relevant data in an accountant-friendly format
+First off, start by checking with your accountant what data they need from you,
+and in which format. This may end up being a key factor in which payment
+solution you decide to use.
+
+Commercial payment processors and BTCPayServer all support a variety of data
+export formats. The same goes for Bitcoin exchanges (the centralized kind).
+Mobile apps and decentralized exchanges tend to be much more of a mixed bag in
+this respect.
 
 ### Further Reading
 
