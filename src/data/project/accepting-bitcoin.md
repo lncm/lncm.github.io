@@ -250,11 +250,11 @@ Self-hosted payment processing means:
 - you don't have to pay fees to a payment processing company (and the fees add
   up!)
 - your business remains your business: no 3rd-party company can see who your
-  customers are or what people are buying from you
+  customers are, or what people are buying from you,
 - you can customise your setup to your needs, and,
-- your system will stay how *you* want it to be so, you'll never have changes
-  forced down your throat by a 3rd-party corporate entity which is looking to
-  cut costs and enhance shareholder value at your expense.
+- your system will stay how *you* want it to be. You'll never have changes
+  forced down your throat by a faceless corporate which is looking to cut costs
+  and enhance shareholder value at your expense!
 
 Now let's look at how you can turn all this into reality.
 
