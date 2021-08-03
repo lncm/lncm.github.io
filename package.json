@@ -11,7 +11,7 @@
     "deploy": "gh-pages -d public -b master"
   },
   "dependencies": {
-    "gatsby": "^2.0.0",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.0.15",
     "gatsby-plugin-eslint": "^2.0.1",
     "gatsby-plugin-favicon": "^3.1.4",
