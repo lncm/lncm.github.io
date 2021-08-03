@@ -29,9 +29,9 @@
     "gh-pages": "^2.0.1",
     "node-sass": "^4.9.4",
     "normalize.css": "^8.0.0",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-helmet": "^5.2.1",
     "toml-loader": "^1.0.0"
   },
   "devDependencies": {
