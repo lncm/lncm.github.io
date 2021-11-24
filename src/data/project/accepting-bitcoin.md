@@ -7,6 +7,7 @@
   - [The 4 Basic Choices You Have](#the-4-basic-choices-you-have)
   - [Turning Your Bitcoin Into Local Fiat Currency](#turning-your-bitcoin-into-local-fiat-currency)
   - [The Boring Part: Tax Reporting](#the-boring-part-tax-reporting)
+  - [Country-by-country warnings](#country-by-country-warnings)
   - [Further Reading](#further-reading)
 
 <!--TOC-->
@@ -376,6 +377,31 @@ send you and hold ("hodl") it in the long term. If the price goes up
 dramatically, fantastic -- you're rich! If the price goes down, it's no big
 deal... that was "free money," which you wouldn't have normally made anyway.
 
+#### No, They're Not Stuck: How To Move Your "Lightning" Bitcoins To A Regular Wallet
+
+If you set things up the way most people do, you will probably be accepting a
+lot of payments via the Bitcoin Lightning Network.
+
+In some cases, the wallet or payment provider you're using may make it
+less-than-obvious how you can move that money from the Lightning Network to a
+regular Bitcoin wallet address.
+
+At the same time, if you are using a hardware wallet like a Trezor or Ledger to
+secure most of your funds (you should be doing this!), you need to send those
+Bitcoins to a "normal" Bitcoin address... outside the Lightning Network.
+
+The answer is pretty easy. First, if you have a mobile device which your staff
+are using to accept funds, you'll want to move funds off that device on a
+regular basis, to a device which is more secure.
+
+Since you'll need a second device anyway, install Muun Wallet on that device,
+or another Bitcoin wallet which makes moving from Lighting to regular Bitcoin
+addresses very easy.
+
+Then use your "back-office device" to move funds around. Leave the
+"front-of-house" device in the hands of your staff, with minimal funds on it in
+case something happens.
+
 ### The Boring Part: Tax Reporting
 
 First off, start by checking with your accountant (or accounting software) what
@@ -390,6 +416,14 @@ this respect.
 If you really need a specific format for your accountant (or accounting
 software package) then you will probably have to look at several different
 payment solutions until you find one that delivers exactly that.
+
+### Country-by-country warnings
+
+#### Germany
+
+In Germany, commercial payment processors are not generally authorised by the
+regulatory authorities. If you're accepting Bitcoin payments in Germany,
+you'll therefore have to use a self-hosted solution like BTCPayServer.
 
 ### Further Reading
 
