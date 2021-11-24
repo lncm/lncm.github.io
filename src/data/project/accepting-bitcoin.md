@@ -6,15 +6,15 @@ cover_image: "../static/register.jpg"
 
 <!--TOC-->
 
-- [How To Accept Bitcoin Payments (For Small Business Owners)](#how-to-accept-bitcoin-payments-for-small-business-owners)
-  - [What's The Fastest Way To Get Started?](#whats-the-fastest-way-to-get-started)
-  - [The Bitcoin Payments Workflow (And How It Ends With Money In Your Pocket)](#the-bitcoin-payments-workflow-and-how-it-ends-with-money-in-your-pocket)
-  - [The "One True Way"](#the-one-true-way)
-  - [The 4 Basic Choices You Have](#the-4-basic-choices-you-have)
-  - [Turning Your Bitcoin Into Local Fiat Currency](#turning-your-bitcoin-into-local-fiat-currency)
-  - [The Boring Part: Tax Reporting](#the-boring-part-tax-reporting)
-  - [Country-by-country warnings](#country-by-country-warnings)
-  - [Further Reading](#further-reading)
+- [What's The Fastest Way To Get Started?](#whats-the-fastest-way-to-get-started)
+- [The Bitcoin Payments Workflow (And How It Ends With Money In Your Pocket)](#the-bitcoin-payments-workflow-and-how-it-ends-with-money-in-your-pocket)
+- [The "One True Way"](#the-one-true-way)
+- [The 4 Basic Choices You Have](#the-4-basic-choices-you-have)
+- [Turning Your Bitcoin Into Local Fiat Currency](#turning-your-bitcoin-into-local-fiat-currency)
+- [No, They're Not Stuck: How To Move Your "Lightning" Bitcoins To A Regular Wallet](#no-theyre-not-stuck-how-to-move-your-lightning-bitcoins-to-a-regular-wallet)
+- [The Boring Part: Tax Reporting](#the-boring-part-tax-reporting)
+- [Country-by-country: Germany](#country-by-country-germany)
+- [Further Reading](#further-reading)
 
 <!--TOC-->
 <!-- Generate TOC with `md_toc -p github accepting-bitcoin.md` -->
@@ -381,7 +381,7 @@ send you and hold ("hodl") it in the long term. If the price goes up
 dramatically, fantastic -- you're rich! If the price goes down, it's no big
 deal... that was "free money," which you wouldn't have normally made anyway.
 
-#### No, They're Not Stuck: How To Move Your "Lightning" Bitcoins To A Regular Wallet
+### No, They're Not Stuck: How To Move Your "Lightning" Bitcoins To A Regular Wallet
 
 If you set things up the way most people do, you will probably be accepting a
 lot of payments via the Bitcoin Lightning Network.
@@ -421,9 +421,7 @@ If you really need a specific format for your accountant (or accounting
 software package) then you will probably have to look at several different
 payment solutions until you find one that delivers exactly that.
 
-### Country-by-country warnings
-
-#### Germany
+### Country-by-country: Germany
 
 In Germany, commercial payment processors are not generally authorised by the
 regulatory authorities. If you're accepting Bitcoin payments in Germany,
