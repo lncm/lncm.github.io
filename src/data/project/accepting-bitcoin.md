@@ -392,7 +392,10 @@ regular Bitcoin wallet address.
 
 At the same time, if you are using a hardware wallet like a Trezor or Ledger to
 secure most of your funds (you should be doing this!), you need to send those
-Bitcoins to a "normal" Bitcoin address... outside the Lightning Network.
+Bitcoins that you earned to a "normal" Bitcoin address on your Trezor...
+outside the Lightning Network.
+
+How do you do this?
 
 The answer is pretty easy. First, if you have a mobile device which your staff
 are using to accept funds, you'll want to move funds off that device on a
@@ -432,3 +435,6 @@ you'll therefore have to use a self-hosted solution like BTCPayServer.
 - Check out [nol1mit's
   page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/), on which a
   good deal of this writeup is based
+- nol1mit also maintains a [list of Bitcoin-accepting
+  merchants](https://nolim1t.gitlab.io/bitcoin-merchants/). Once you get
+  set-up, he'll list you too
