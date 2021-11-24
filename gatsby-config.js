@@ -28,13 +28,13 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
-    'gatsby-transformer-remark',
     'gatsby-transformer-toml',
     'gatsby-remark-copy-linked-files',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          'gatsby-remark-autolink-headers',
           {
             resolve: 'gatsby-remark-relative-images',
           },

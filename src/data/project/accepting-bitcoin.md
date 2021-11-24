@@ -1,3 +1,9 @@
+---
+title: How To Accept Bitcoin Payments (For Small Business Owners)
+date: "2021-08-01"
+cover_image: "../static/register.jpg"
+---
+
 <!--TOC-->
 
 - [How To Accept Bitcoin Payments (For Small Business Owners)](#how-to-accept-bitcoin-payments-for-small-business-owners)
@@ -12,8 +18,6 @@
 
 <!--TOC-->
 <!-- Generate TOC with `md_toc -p github accepting-bitcoin.md` -->
-
-## How To Accept Bitcoin Payments (For Small Business Owners)
 
 Welcome to Bitcoin!
 
