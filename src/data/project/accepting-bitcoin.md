@@ -18,6 +18,8 @@ cover_image: "../static/register.jpg"
 
 <!--TOC-->
 <!-- Generate TOC with `md_toc -p github accepting-bitcoin.md` -->
+*You can reach this page via the easy-to-remember address
+[accepting-bitcoin.org](http://accepting-bitcoin.org)*
 
 Welcome to Bitcoin!
 
