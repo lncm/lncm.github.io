@@ -1,6 +1,7 @@
 ---
 title: How to keep your coins safe: solutions for solving crypto custody questions
 date: "2022-01-16"
+cover_image: "../static/cardboard-box.jpg"
 ---
 
 <!--TOC-->
