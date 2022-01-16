@@ -1,23 +1,25 @@
 ---
-title: Crypto custody and secure storage resources
+title: How to keep your coins safe: solutions for solving crypto custody questions
 date: "2022-01-16"
-cover_image: "../static/register.jpg"
 ---
 
 <!--TOC-->
-<!--TOC-->
-<!-- Generate TOC with `md_toc -p github accepting-bitcoin.md` -->
 
-## Keep your coins safe: all the solutions we know about for solving crypto custody questions
+- [Solutions we know about](#solutions-we-know-about)
+  - [Free / Open-source](#free--open-source)
+  - [Commercial](#commercial)
+
+<!--TOC-->
+<!-- Generate TOC with `md_toc -p github custody.md` -->
 
 Crypto custody is an important issue. Crypto traders and hodlers are
 increasingly targeted by organised crime and other evildoers. This means
 choosing the right way to custody your coins is not just about protecting what
 you own, but protecting yourself and those around you.
 
-### Solutions we know about
+## Solutions we know about
 
-#### Free / Open-source
+### Free / Open-source
 
 * Electrum multisig wallets
 * bitcoin native multisig
@@ -28,7 +30,7 @@ you own, but protecting yourself and those around you.
 * [Seedsigner](https://seedsigner.com/) Raspberry Pi-based air-gapped multisig
   wallet hardware device
 
-#### Commercial
+### Commercial
 * casa
 * bitgo
 * qredo
