@@ -53,10 +53,12 @@
 <li>
 <p><a href="#multi-signature-tools">Multi-signature tools</a></p>
 <ul>
-<li><a href="#free--open-source">Free / Open-source</a></li>
-<li><a href="#commercial">Commercial</a></li>
+<li><a href="#freeopen-source-solutions-for-self-custody">Free/open-source solutions for self-custody</a></li>
+<li><a href="#commercial-self-custody-devices-and-products">Commercial self-custody devices and products</a></li>
+<li><a href="#commercial-services-using-multisig-to-provide-a-combination-of-self--and-external-custody">Commercial services using multisig to provide a combination of self- and external-custody</a></li>
 </ul>
 </li>
+<li><a href="#full-service-external-custody-fiduciary-service-providers">Full-service external-custody (fiduciary) service providers</a></li>
 </ul>
 <!--TOC-->
 <!-- Generate TOC with `md_toc -p github custody.md` -->
@@ -72,29 +74,48 @@ coins, if someone tries to use brute force or other unpleasantness.</p>
 crypto holdings against robbery and coercion. It is not a detailed how-to: the
 detailed design of a secure access protocol will (probably) be unique to your
 situation.</p>
-<p>This page is a work in progress. For comments or additions, join our
+<p>This page is a work in progress, and it is constantly being updated. For
+comments or additions, join our
 <a href="https://matrix.to/#/#bitcoins-in-chiangmai:matrix.org">Matrix</a> or
 <a href="https://t.me/btccmai">Telegram</a> groups and let us know your thoughts.</p>
 <h2 id="multi-signature-tools" style="position:relative;"><a href="#multi-signature-tools" aria-label="multi signature tools permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Multi-signature tools</h2>
 <p>Most custody systems will involve some form of multi-signature security, where
-2 of 3 private keys (or 3 of 5, etc) must be present to make a transaction.</p>
-<h3 id="free--open-source" style="position:relative;"><a href="#free--open-source" aria-label="free  open source permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Free / Open-source</h3>
+2 of 3 private keys (or 3 of 5, etc) must be present to make a transaction. For
+more, see <a href="https://coinguides.org/multisig-multi-signature-wallet/">here</a> and
+[here] (<a href="https://en.bitcoin.it/wiki/Multi-signature">https://en.bitcoin.it/wiki/Multi-signature</a>).</p>
+<h3 id="freeopen-source-solutions-for-self-custody" style="position:relative;"><a href="#freeopen-source-solutions-for-self-custody" aria-label="freeopen source solutions for self custody permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Free/open-source solutions for self-custody</h3>
 <ul>
-<li>Electrum multisig wallets: Electrum supports N of M multisig by default.</li>
+<li><a href="https://electrum.org">Electrum</a> multisig wallets: Electrum supports N of M
+multisig by default.</li>
 <li>Bitcoin native multisig: Bitcoin natively supports multisig addresses.</li>
 <li>"Poor man's multisig" where you divide up a seed phrase into 3 parts and
 store copies such that you need key material from 2 of 3 storage sites to
 reconstruct the seed phrase. This allows you to produce "multisig"
 functionality for nearly any crypto storage device or paradigm.</li>
-<li>Specter DIY hardware wallet</li>
+<li><a href="https://github.com/cryptoadvance/specter-diy">Specter DIY</a> hardware wallet</li>
 <li><a href="https://seedsigner.com/">Seedsigner</a> Raspberry Pi-based air-gapped multisig
 wallet hardware device</li>
 </ul>
-<h3 id="commercial" style="position:relative;"><a href="#commercial" aria-label="commercial permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Commercial</h3>
+<h3 id="commercial-self-custody-devices-and-products" style="position:relative;"><a href="#commercial-self-custody-devices-and-products" aria-label="commercial self custody devices and products permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Commercial self-custody devices and products</h3>
 <ul>
-<li>Casa</li>
-<li>Bitgo</li>
-<li>Qredo</li>
-<li>Fireblocks</li>
 <li>Trezor Model T supports Shamir secret splitting</li>
+</ul>
+<h3 id="commercial-services-using-multisig-to-provide-a-combination-of-self--and-external-custody" style="position:relative;"><a href="#commercial-services-using-multisig-to-provide-a-combination-of-self--and-external-custody" aria-label="commercial services using multisig to provide a combination of self  and external custody permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Commercial services using multisig to provide a combination of self- and external-custody</h3>
+<ul>
+<li>[Casa] (<a href="https://keys.casa/">https://keys.casa/</a>)</li>
+<li><a href="https://www.bitgo.com/">Bitgo</a>: offers both self- and full-service custody,
+US based, has been around for a long time. </li>
+<li><a href="https://www.qredo.com/">Qredo</a>: decentralised custody (?). If you can
+concisely summarise what they do, please let us know...</li>
+<li><a href="https://www.fireblocks.com/">Fireblocks</a>: institutionally-focused custody
+platform with an API, suited to DeFi and token traders as well</li>
+</ul>
+<h2 id="full-service-external-custody-fiduciary-service-providers" style="position:relative;"><a href="#full-service-external-custody-fiduciary-service-providers" aria-label="full service external custody fiduciary service providers permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Full-service external-custody (fiduciary) service providers</h2>
+<p>Primarily targeted at large investors. Usually insured against loss.</p>
+<ul>
+<li>Coinbase Custody: US-regulated institutional custody service for hedge funds
+and large investors</li>
+<li><a href="https://www.knoxcustody.com/">Knox</a>: Canadian Bitcoin custodian</li>
+<li><a href="https://www.bitgo.com/">Bitgo</a>: offers both self- and full-service custody,
+US based, has been around for a long time. </li>
 </ul></div><a href="/projects">⬅ Back to Projects</a></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/project/custody/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-57fa76c8ad53bd44c5a1.js"],"app":["/app-2abed93285505185941b.js"],"component---src-pages-projects-jsx":["/component---src-pages-projects-jsx-30b4cbc00283b4cf4cfc.js"],"component---src-templates-markdown-jsx":["/component---src-templates-markdown-jsx-188174a692702a797315.js"],"component---src-templates-project-jsx":["/component---src-templates-project-jsx-69e0e077ae0897eb3e30.js"]};/*]]>*/</script><script src="/polyfill-57fa76c8ad53bd44c5a1.js" nomodule=""></script><script src="/webpack-runtime-ca7b243e367022905816.js" async=""></script><script src="/framework-f8bfb95927b3dbb08f8f.js" async=""></script><script src="/app-2abed93285505185941b.js" async=""></script><script src="/styles-e9d24b1846c7d6eb9685.js" async=""></script><script src="/commons-c298024134588db3b412.js" async=""></script><script src="/component---src-templates-project-jsx-69e0e077ae0897eb3e30.js" async=""></script></body></html>
