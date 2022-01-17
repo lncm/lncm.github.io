@@ -25,8 +25,8 @@ coins, if someone tries to use brute force or other unpleasantness.
 
 Therefore, this document describes different tools you can use protect your
 crypto holdings against robbery and coercion. It is not a detailed how-to: the
-actual implementation of a secure access protocol will tend to be unique to
-your situation.
+detailed design of a secure access protocol will (probably) be unique to your
+situation.
 
 This page is a work in progress. For comments or additions, join our
 [Matrix](https://matrix.to/#/#bitcoins-in-chiangmai:matrix.org) or
