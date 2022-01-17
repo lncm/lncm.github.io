@@ -60,11 +60,11 @@ more, see [here](https://coinguides.org/multisig-multi-signature-wallet/) and
 
 ### Commercial self-custody devices and products
 
-* Trezor Model T supports Shamir secret splitting
+* [Trezor](https://trezor.io/) Model T hardware wallet [supports Shamir secret sharing](https://trezor.io/shamir/)
 
 ### Commercial services using multisig to provide a combination of self- and external-custody
 
-* [Casa] (https://keys.casa/)
+* [Casa](https://keys.casa/)
 * [Bitgo](https://www.bitgo.com/): offers both self- and full-service custody,
   US based, has been around for a long time. 
 * [Qredo](https://www.qredo.com/): decentralised custody (?). If you can
@@ -76,8 +76,8 @@ more, see [here](https://coinguides.org/multisig-multi-signature-wallet/) and
 
 Primarily targeted at large investors. Usually insured against loss.
 
-* Coinbase Custody: US-regulated institutional custody service for hedge funds
-  and large investors
 * [Knox](https://www.knoxcustody.com/): Canadian Bitcoin custodian
 * [Bitgo](https://www.bitgo.com/): offers both self- and full-service custody,
   US based, has been around for a long time. 
+* Coinbase Custody: US-regulated institutional custody service for hedge funds
+  and large investors
