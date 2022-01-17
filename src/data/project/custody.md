@@ -11,6 +11,7 @@ cover_image: "../static/cardboard-box.jpg"
   - [Commercial self-custody devices and products](#commercial-self-custody-devices-and-products)
   - [Commercial services using multisig to provide a combination of self- and external-custody](#commercial-services-using-multisig-to-provide-a-combination-of-self--and-external-custody)
 - [Full-service external-custody (fiduciary) service providers](#full-service-external-custody-fiduciary-service-providers)
+- [Knowledge and theory](#knowledge-and-theory)
 
 <!--TOC-->
 <!-- Generate TOC with `md_toc -p github custody.md` -->
@@ -81,3 +82,25 @@ Primarily targeted at large investors. Usually insured against loss.
   US based, has been around for a long time. 
 * Coinbase Custody: US-regulated institutional custody service for hedge funds
   and large investors
+
+## Knowledge and theory
+
+* [Arman's
+  post](https://armantheparman.com/how-to-store-your-bitcoin-detailed-instructions-part-2-multi-signature/)
+  on setting up Electrum multisig wallets
+* [Vitalik's social
+  recovery](https://vitalik.ca/general/2021/01/11/recovery.html) blog post
+  focused on the Ethereum-only wallets [Argent](https://www.argent.xyz/) and
+  [Loopring](https://loopring.io/) as well as [Udi Wertheimer's
+  reply](https://twitter.com/udiWertheimer/status/1348532541326839808)
+* [Unchained Capital webinar](https://www.youtube.com/watch?v=yGgO5RCH0a4) on
+  operational security best practices
+* [@jimbocoin thread](https://twitter.com/jimbocoin/status/1353687203285790720)
+  on using timelocks and multisig against violent theft of Bitcoin as well as
+  [@buckperley's
+  comments](https://twitter.com/BuckPerley/status/1483163898622664713) on using
+  Taproot and timelocks for inheritance. See also the [Bitcoin wiki Timelock
+  page](https://en.bitcoin.it/wiki/Timelock) and the [Coinb.in Timelock
+  Guide](https://blog.coinb.in/guide_timelock) or [Bitcointalk timelock
+  transaction
+  thread](https://bitcointalk.org/index.php?topic=2415595.msg24712087#msg24712087) or the [@jaredctate timelock thread](https://twitter.com/jaredctate/status/1216396660437389315)
