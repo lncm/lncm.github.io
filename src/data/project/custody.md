@@ -51,7 +51,10 @@ more, see [here](https://coinguides.org/multisig-multi-signature-wallet/) and
   store copies such that you need key material from 2 of 3 storage sites to
   reconstruct the seed phrase. This allows you to produce "multisig"
   functionality for nearly any crypto storage device or paradigm.
-* [Specter DIY](https://github.com/cryptoadvance/specter-diy) hardware wallet
+* [Specter DIY](https://github.com/cryptoadvance/specter-diy) hardware wallet.
+  Their YouTube channel [documents how to use 
+  Specter DIY](https://www.youtube.com/watch?v=xjBzAAiVKk8) as part of a 2-of-3
+  multisig setup.
 * [Seedsigner](https://seedsigner.com/) Raspberry Pi-based air-gapped multisig
   wallet hardware device
 
