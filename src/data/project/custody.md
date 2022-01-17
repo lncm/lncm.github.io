@@ -34,7 +34,9 @@ situation.
 This page is a work in progress, and it is constantly being updated. For
 comments or additions, join our
 [Matrix](https://matrix.to/#/#bitcoins-in-chiangmai:matrix.org) or
-[Telegram](https://t.me/btccmai) groups and let us know your thoughts.
+[Telegram](https://t.me/btccmai) groups and let us know your thoughts. You can
+also submit a pull request to our [Github
+repo](https://github.com/lncm/lncm.github.io/blob/source/src/data/project/custody.md).
 
 ## Multi-signature tools
 
@@ -58,20 +60,37 @@ more, see [here](https://coinguides.org/multisig-multi-signature-wallet/) and
   multisig setup.
 * [Seedsigner](https://seedsigner.com/) Raspberry Pi-based air-gapped multisig
   wallet hardware device
+* [Sparrow Wallet](https://www.sparrowwallet.com/features/) is a Bitcoin
+  desktop wallet targeted at advanced users, which supports multisig, has an
+  integrated Samourai Whirlpool coinjoin client, and has extensive PSBT support
 
 ### Commercial self-custody devices and products
 
 * [Trezor](https://trezor.io/) Model T hardware wallet [supports Shamir secret sharing](https://trezor.io/shamir/)
 
-### Commercial services using multisig to provide a combination of self- and external-custody
+### Commercial services using multisig to provide some combination of self- and external-custody
 
-* [Casa](https://keys.casa/)
+Self-custody usually means that you are entirely responsible for your keys.
+External-custody means someone else (a company with extensive security
+precautions) holds your keys for you, and signs transactions when certain
+conditions are met. Most of these services fall somewhere in
+the middle.
+
+For example, you might have a 2-of-3 multisig setup where you hold one key on
+your device, another key far away in a secure but inaccessible location, and
+the 3rd key is held by a commercial service on your behalf (where the service
+provides additional security features).
+
+* [Casa](https://keys.casa/): Commercial service that helps you set up secure
+  multi-sig self-custody
 * [Bitgo](https://www.bitgo.com/): offers both self- and full-service custody,
   US based, has been around for a long time. 
 * [Qredo](https://www.qredo.com/): decentralised custody (?). If you can
   concisely summarise what they do, please let us know...
 * [Fireblocks](https://www.fireblocks.com/): institutionally-focused custody
   platform with an API, suited to DeFi and token traders as well
+* [Unchained Capital](https://unchained.com/): Commercial service that helps
+  you set up secure self-custody
 
 ## Full-service external-custody (fiduciary) service providers
 
@@ -104,3 +123,7 @@ Primarily targeted at large investors. Usually insured against loss.
   Guide](https://blog.coinb.in/guide_timelock) or [Bitcointalk timelock
   transaction
   thread](https://bitcointalk.org/index.php?topic=2415595.msg24712087#msg24712087) or the [@jaredctate timelock thread](https://twitter.com/jaredctate/status/1216396660437389315)
+* the [Swan Bitcoin wallets
+  page](https://www.swanbitcoin.com/bitcoin-wallets-not-your-keys-not-your-bitcoin/)
+* [Jameson Lopp's wallets
+  page](https://www.lopp.net/bitcoin-information/recommended-wallets.html)
