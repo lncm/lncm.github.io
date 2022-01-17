@@ -40,7 +40,7 @@ comments or additions, join our
 Most custody systems will involve some form of multi-signature security, where
 2 of 3 private keys (or 3 of 5, etc) must be present to make a transaction. For
 more, see [here](https://coinguides.org/multisig-multi-signature-wallet/) and
-[here] (https://en.bitcoin.it/wiki/Multi-signature).
+[here](https://en.bitcoin.it/wiki/Multi-signature).
 
 ### Free/open-source solutions for self-custody
 
