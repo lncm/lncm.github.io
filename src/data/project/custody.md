@@ -7,8 +7,10 @@ cover_image: "../static/cardboard-box.jpg"
 <!--TOC-->
 
 - [Multi-signature tools](#multi-signature-tools)
-  - [Free / Open-source](#free--open-source)
-  - [Commercial](#commercial)
+  - [Free/open-source solutions for self-custody](#freeopen-source-solutions-for-self-custody)
+  - [Commercial self-custody devices and products](#commercial-self-custody-devices-and-products)
+  - [Commercial services using multisig to provide a combination of self- and external-custody](#commercial-services-using-multisig-to-provide-a-combination-of-self--and-external-custody)
+- [Full-service external-custody (fiduciary) service providers](#full-service-external-custody-fiduciary-service-providers)
 
 <!--TOC-->
 <!-- Generate TOC with `md_toc -p github custody.md` -->
@@ -28,31 +30,51 @@ crypto holdings against robbery and coercion. It is not a detailed how-to: the
 detailed design of a secure access protocol will (probably) be unique to your
 situation.
 
-This page is a work in progress. For comments or additions, join our
+This page is a work in progress, and it is constantly being updated. For
+comments or additions, join our
 [Matrix](https://matrix.to/#/#bitcoins-in-chiangmai:matrix.org) or
 [Telegram](https://t.me/btccmai) groups and let us know your thoughts.
 
 ## Multi-signature tools
 
 Most custody systems will involve some form of multi-signature security, where
-2 of 3 private keys (or 3 of 5, etc) must be present to make a transaction.
+2 of 3 private keys (or 3 of 5, etc) must be present to make a transaction. For
+more, see [here](https://coinguides.org/multisig-multi-signature-wallet/) and
+[here] (https://en.bitcoin.it/wiki/Multi-signature).
 
-### Free / Open-source
+### Free/open-source solutions for self-custody
 
-* Electrum multisig wallets: Electrum supports N of M multisig by default.
+* [Electrum](https://electrum.org) multisig wallets: Electrum supports N of M
+  multisig by default.
 * Bitcoin native multisig: Bitcoin natively supports multisig addresses.
 * "Poor man's multisig" where you divide up a seed phrase into 3 parts and
   store copies such that you need key material from 2 of 3 storage sites to
   reconstruct the seed phrase. This allows you to produce "multisig"
   functionality for nearly any crypto storage device or paradigm.
-* Specter DIY hardware wallet
+* [Specter DIY](https://github.com/cryptoadvance/specter-diy) hardware wallet
 * [Seedsigner](https://seedsigner.com/) Raspberry Pi-based air-gapped multisig
   wallet hardware device
 
-### Commercial
+### Commercial self-custody devices and products
 
-* Casa
-* Bitgo
-* Qredo
-* Fireblocks
 * Trezor Model T supports Shamir secret splitting
+
+### Commercial services using multisig to provide a combination of self- and external-custody
+
+* [Casa] (https://keys.casa/)
+* [Bitgo](https://www.bitgo.com/): offers both self- and full-service custody,
+  US based, has been around for a long time. 
+* [Qredo](https://www.qredo.com/): decentralised custody (?). If you can
+  concisely summarise what they do, please let us know...
+* [Fireblocks](https://www.fireblocks.com/): institutionally-focused custody
+  platform with an API, suited to DeFi and token traders as well
+
+## Full-service external-custody (fiduciary) service providers
+
+Primarily targeted at large investors. Usually insured against loss.
+
+* Coinbase Custody: US-regulated institutional custody service for hedge funds
+  and large investors
+* [Knox](https://www.knoxcustody.com/): Canadian Bitcoin custodian
+* [Bitgo](https://www.bitgo.com/): offers both self- and full-service custody,
+  US based, has been around for a long time. 
