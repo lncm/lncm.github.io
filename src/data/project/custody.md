@@ -67,6 +67,16 @@ more, see [here](https://coinguides.org/multisig-multi-signature-wallet/) and
 ### Commercial self-custody devices and products
 
 * [Trezor](https://trezor.io/) Model T hardware wallet [supports Shamir secret sharing](https://trezor.io/shamir/)
+* [Ledger](https://www.ledger.com/) technically supports multisig with some of
+  their products but [recommends against using
+  multisig](https://blog.ledger.com/why-multisig-wont-let-you-scale-your-digital-asset-business/)
+  and has [historically not done well with multisig
+  transactions](https://twitter.com/mflaxman/status/1154538947340468224) and
+  have previously had their [entire customer database
+  hacked](https://decrypt.co/52118/hacked-ledger-database-dumped-on-raidforums)
+  making the names and addresses of their customers available to internet
+  criminals with some
+  [consequences](https://www.bitdefender.com/blog/hotforsecurity/fake-ledger-devices-mailed-out-in-attempt-to-steal-from-cryptocurrency-fans/).
 
 ### Commercial services using multisig to provide some combination of self- and external-custody
 
@@ -127,3 +137,9 @@ Primarily targeted at large investors. Usually insured against loss.
   page](https://www.swanbitcoin.com/bitcoin-wallets-not-your-keys-not-your-bitcoin/)
 * [Jameson Lopp's wallets
   page](https://www.lopp.net/bitcoin-information/recommended-wallets.html)
+* the [WalletsRecovery page](https://walletsrecovery.org/) explaining how
+  different Bitcoin wallets handle recovery. (primarily useful when recovering
+  from seed or etc)
+* Bitbox articles on [The pitfalls of multisig when using hardware
+  wallets](https://medium.com/shiftcrypto/the-pitfalls-of-multisig-when-using-hardware-wallets-9b0e98e4c19c)
+  which explains some of the things whic hcan go wrong
