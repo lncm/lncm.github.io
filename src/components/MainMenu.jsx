@@ -3,17 +3,15 @@ import { Link } from 'gatsby';
 
 import SocialMedia from './SocialMedia';
 
-// const menuItems = ['about', 'blog', 'projects', 'team'];
-const menuItems = ['about', 'projects'];
-
 export default () => (
   <div>
     <ul id="main-menu">
-      {menuItems.map((k, i) => (
-        <li key={k}>
-          <Link to={i ? k : '/'}>{k}</Link>
-        </li>
-      ))}
+      <li>
+        <Link to="/">About</Link>
+      </li>
+      <li>
+        <Link to="/projects">Projects</Link>
+      </li>
     </ul>
     <SocialMedia />
   </div>
