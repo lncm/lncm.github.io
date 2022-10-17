@@ -143,3 +143,4 @@ Primarily targeted at large investors. Usually insured against loss.
 * Bitbox articles on [The pitfalls of multisig when using hardware
   wallets](https://medium.com/shiftcrypto/the-pitfalls-of-multisig-when-using-hardware-wallets-9b0e98e4c19c)
   which explains some of the things whic hcan go wrong
+* the DIY [Dead Man's Switch](https://www.deadmansswitch.net/) website
