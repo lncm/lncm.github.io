@@ -1,6 +1,6 @@
 ---
 title: How To Accept Bitcoin Payments (For Small Business Owners)
-date: "2021-08-01"
+date: "2022-10-17"
 cover_image: "../static/register.jpg"
 ---
 
@@ -223,15 +223,21 @@ this case, they are handling Bitcoin payments.
 
 Here are a few examples:
 
-* [Coingate](https://coingate.com/): allows you to accept both Lightning and
-  on-chain payments seamlessly. Has integrations for Magento, Woocommerce,
-  Opencart, WHMCS, oscommerce, Zencart, ... and lots more.
 * [Coinify](https://www.coinify.com/): has integrations, but they are a large
   company and you have to sign up for an account to see which plugins are
-  currently available.
+  currently available. It is open to US companies.
+* [Coingate](https://coingate.com/): allows you to accept both Lightning and
+  on-chain payments seamlessly. Has integrations for Magento, Woocommerce,
+  Opencart, WHMCS, oscommerce, Zencart, ... and lots more. It's not open to US
+  companies.
 * [CoinPayments](https://www.coinpayments.net/): makes it easy to accept
   hundreds (or thousands!) of different cryptocurrencies. Integrates with
-  Magento, Shopify, Woocommerce, Opencart, and more
+  Magento, Shopify, Woocommerce, Opencart, and more. It is not open to US
+  companies.
+* [Blockonomics](https://www.blockonomics.co/merchants) allows you to receive
+  the money directly into your Bitcoin wallet. This means you always control
+  the funds, and they don't have to ask you for any personal information. It
+  also has [lot of integrations](https://www.blockonomics.co/integrations)
 
 One payment processor we specifically recommend *against* is BitPay.
 Unfortunately, they've set up so many restrictions and barriers to actually
@@ -300,13 +306,18 @@ Bitcoin network. The second option generally provides everything in one device.
   BTCPayServer can be used both for retail and ecommerce payment processing. It
   accepts Lightning payments, and has all kinds of other tricks up its sleeve.
   However, it is somewhat more complex to set up on its own than an
-  "all-in-one" solution. If you don't have a server on your premises, [options
+  "all-in-one" solution. If you don't want to bother,
+  [Voltage.cloud](https://voltage.cloud/btcpay) offers a "cloud hosted" style
+  approach, where you pay them a monthly fee to run it for you. Alternately, if
+  you want more control, [other options
   are
   available](https://medium.com/@BtcpayServer/hosting-btcpay-server-for-cheap-2b27761fdb9d)
   assuming you or your tech people have some understanding of server
-  administration. All that said, all-in-one solutions (like the ones listed
-  below) often provide an instance of BTCPayServer out of the box, so you don't
-  have to deal with the complexity.
+  administration. 
+
+All that said, all-in-one solutions (like the ones listed below) often provide
+an instance of BTCPayServer out of the box, so you don't have to deal with the
+complexity.
 
 ###### Full-Node-In-A-Box
 
