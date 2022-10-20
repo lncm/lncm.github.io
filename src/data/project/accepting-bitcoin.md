@@ -223,6 +223,10 @@ this case, they are handling Bitcoin payments.
 
 Here are a few examples:
 
+* [Confirmo](https://confirmo.net/): Bitcoin- and Bitcoin Lightning-friendly
+  payment processor. "We do one thing and one thing well." Suitable for large
+  companies, used by "Bitcoin OG" project Trezor and Czech electronics retailer
+  Alza. Has PrestaShop and Shopify integrations.
 * [Coinify](https://www.coinify.com/): has integrations, but they are a large
   company and you have to sign up for an account to see which plugins are
   currently available. It is open to US companies.
