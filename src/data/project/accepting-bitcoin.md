@@ -32,6 +32,15 @@ advantages. You'll:
 
 (Oh, and with Bitcoin, you never have to worry about chargebacks!)
 
+And that's not all.
+
+- Bitcoin customers spend more. According to one retailer, their average
+  Bitcoin order size is 10x larger than their average fiat currency order.
+- Bitcoin customers complain less! Merchants return rates as low as 1% for
+  Bitcoin users, compared with 10-25% for fiat currency buyers. This is because
+  cryptocurrency purchasers think more carefully about what they want, instead
+  of buying impulsively (and regretting it later.
+
 Unfortunately, with all this freedom and power comes at least a little bit of
 responsibility. And the Bitcoin ecosystem can be pretty confusing. Let's try to
 fix that.
@@ -310,11 +319,11 @@ Bitcoin network. The second option generally provides everything in one device.
   BTCPayServer can be used both for retail and ecommerce payment processing. It
   accepts Lightning payments, and has all kinds of other tricks up its sleeve.
   However, it is somewhat more complex to set up on its own than an
-  "all-in-one" solution. If you don't want to bother,
-  [Voltage.cloud](https://voltage.cloud/btcpay) offers a "cloud hosted" style
-  approach, where you pay them a monthly fee to run it for you. Alternately, if
-  you want more control, [other options
-  are
+  "all-in-one" solution. One retailer reports it took their IT people about
+  $100 in time to install and get going. If you don't want to bother, or don't
+  have IT staff, [Voltage.cloud](https://voltage.cloud/btcpay) offers a "cloud
+  hosted" style approach, where you pay them a monthly fee to run it for you.
+  Alternately, if you want more control, [other options are
   available](https://medium.com/@BtcpayServer/hosting-btcpay-server-for-cheap-2b27761fdb9d)
   assuming you or your tech people have some understanding of server
   administration. 
