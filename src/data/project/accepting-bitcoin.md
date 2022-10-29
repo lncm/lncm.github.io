@@ -27,7 +27,8 @@ Accepting Bitcoin payments in your business has lots of
 advantages. You'll:
 - attract new customers,
 - give yourself the option to accumulate your own Bitcoin investment with zero effort,
-- show the world that you're ahead of the curve, and,
+- get paid up front, no more waiting days/weeks/months for payments to clear!
+  and...
 - free yourself (at least a little bit) from blood-sucking credit card processors.
 
 (Oh, and with Bitcoin, you never have to worry about chargebacks!)
@@ -35,7 +36,8 @@ advantages. You'll:
 And that's not all.
 
 - Bitcoin customers spend more. According to one retailer, their average
-  Bitcoin order size is 10x larger than their average fiat currency order.
+  Bitcoin basket size ($1000) is almost 10x larger than their average fiat
+  currency basket ($150).
 - Bitcoin customers complain less! Merchants return rates as low as 1% for
   Bitcoin users, compared with 10-25% for fiat currency buyers. This is because
   cryptocurrency purchasers think more carefully about what they want, instead
