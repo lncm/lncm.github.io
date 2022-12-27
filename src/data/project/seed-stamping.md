@@ -267,13 +267,17 @@ word is gone, you can make a good guess at what the word was, given what's left
 of it.
 
 Also, consider stamping the index number of each word (1st word, 2nd word, 3rd
-word, etc).  This has two benefits:
+word, etc).  This has many benefits:
 1. it makes things more explicit when someone (maybe not even you!) is
    recovering the seed decades from now, and
 1. it makes it that much easier to restore or verify the seed using a hardware
    wallet.  Most hardware wallets will ask for random words of the seed (4th
    word, then the 1st word, etc) during restore/verify operations. (This
    ensures malware on the local machine can't capture the seed word ordering.)
+1. if you screw up stamping a word, you can just stamp it again underneath the
+   previous try. Since you stamp the index number as well, you will know this
+   is a duplicate word, rather than your seed phrase containing the same word
+   twice in a row.
 
 Obviously if you are using a seed card with pre-etched numbers and lines, you
 don't have to stamp the numbers.
