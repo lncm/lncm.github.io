@@ -6,10 +6,11 @@ cover_image: "../static/cardboard-box.jpg"
 
 <!--TOC-->
 
+- [General tips for any custody project](#general-tips-for-any-custody-project)
 - [Multi-signature tools](#multi-signature-tools)
   - [Free/open-source solutions for self-custody](#freeopen-source-solutions-for-self-custody)
   - [Commercial self-custody devices and products](#commercial-self-custody-devices-and-products)
-  - [Commercial services using multisig to provide a combination of self- and external-custody](#commercial-services-using-multisig-to-provide-a-combination-of-self--and-external-custody)
+  - [Commercial services using multisig to provide some combination of self- and external-custody](#commercial-services-using-multisig-to-provide-some-combination-of-self--and-external-custody)
 - [Full-service external-custody (fiduciary) service providers](#full-service-external-custody-fiduciary-service-providers)
 - [Knowledge and theory](#knowledge-and-theory)
 
@@ -37,6 +38,32 @@ comments or additions, join our
 [Telegram](https://t.me/btccmai) groups and let us know your thoughts. You can
 also submit a pull request to our [Github
 repo](https://github.com/lncm/lncm.github.io/blob/source/src/data/project/custody.md).
+
+
+
+## General tips for any custody project
+
+* **NEVER TRUST A SYSTEM WHICH YOU DON'T UNDERSTAND!** If it's too complicated
+  for you to understand it, it will stab you in the back when you need it most.
+* This also means that you should **never trust a significant quantity of funds
+  to a custody system which you've never used before!** As a rule of thumb: if
+  you haven't had at least one "oh shit, did I just fuck up and lose money?"
+  moment while playing around with a system, you don't understand it well
+  enough to trust it with your funds. Start with "custodying" a few Satoshis,
+  then stress-test the system in every conceivable way before you add real
+  money.
+* **Keep it as simple as possible, and no simpler.** Every additional
+  complication--every additional password, every new clever trick you have to
+  know to get the private key, etc--increases the risk that you will not be
+  able to recover your funds...  **EXPONENTIALLY!**. That means a tiny increase
+  in complexity can produce a huge additional risk.
+* Listen to Baroque music while you work. You'll make fewer mistakes.
+* **Take your time** designing your approach, and **experiment with lots of
+  different things** before you decide to do it one way.
+* Practice helps. Custody systems often require you do to things in a certain
+  order and exactly right. Doing a run-through once or twice before you set up
+  the "real deal" can be very helpful.
+
 
 ## Multi-signature tools
 
