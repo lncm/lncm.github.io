@@ -58,9 +58,9 @@ repo](https://github.com/lncm/lncm.github.io/blob/source/src/data/project/seed-s
 
 **You can buy a hammer, a piece of 3mm thick 304 or 316L stainless steel, and a
 set of number/letter stamps just about anywhere in the world at any hardware
-shop. With cash.
+shop. With cash.**
 
-That's all you really need!**
+**That's all you really need!**
 
 If you buy a commercial seed storage solution, there will be a record somewhere
 that you made the purchase. Someone who has their eyes on your stash will
