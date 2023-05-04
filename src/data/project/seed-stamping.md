@@ -506,6 +506,26 @@ simple as possible. The "smarter" or more "digital" the machine, the greater
 the risk it will store or leak your seed phrase. **Ideally you want a purely
 analog and mechanical solution!**
 
+There are a couple of relatively inexpensive options for stamping machines:
+
+- The [DYMO Rhino M1011
+  Embosser](https://www.dymo.com/label-makers-printers/embossing-label-makers/dymo-rhino-m1011-embosser-kit/SAP_101105.html)
+  will stamp anything into very thin stainless steel tape. It's very
+  inexpensive ([about $150 on
+  Amazon](https://www.amazon.com/DYMO-Labeller-Embossing-1-Carded-M1101/dp/B000FD7Z7I/) as of writing) and simple to use. The tape is thin
+  enough to be easy to hide, and will be hard to find with a metal detector.
+  However, it's not as robust as a metal seed plate.
+- There are a number of Chinese knock-off manual embossing machines --
+  [1](https://www.amazon.com/ECUTEE-Embossing-Stamping-Embosser-Nameplates/dp/B0BHNMMCLF/)
+  [2](https://www.amazon.com/Nameplate-Stamping-Semi-Automatic-Embosser-Character/dp/B09TGVT1HN/)
+  [3](https://www.amazon.com/Nameplate-Stamping-Different-Character-optional/dp/B00ST05MEW/)
+  -- all around $250 which look very suitable. They all look like they will do
+  a superb job of embossing text character-by-character into a stainless steel
+  plate. They're designed to hold the stamp exactly perpendicular, and have
+  controlled spacing between characters. Caution! Make sure the machine you buy
+  is suitable for stamping stainless steel. If the stamp wheel is too soft
+  (designed for aluminum only) then it will wear very quickly.
+
 ## Draw a base- or under-line before you stamp
 
 If you are using individual stamps (versus a type holder) then it's very useful
