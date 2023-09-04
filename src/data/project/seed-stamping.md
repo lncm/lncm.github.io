@@ -500,14 +500,24 @@ manufacture dog tags that are extremely robust. These machines are often
 portable, so that a military officer could set up a table and then process a
 long line of fresh recruits waiting for their tags.
 
-Modern stamping machines are no longer just used for military applications.
-However, if you choose to go this route, you want a stamping machine which is a
-simple as possible. The "smarter" or more "digital" the machine, the greater
-the risk it will store or leak your seed phrase. **Ideally you want a purely
-analog and mechanical solution!**
+Military dog tag machines are still manufactured, with varying degrees of
+computerization (you want less computerization, not more). There are two major
+manufacturers of these machines,
+[Matica](https://www.maticagroup.com/assets/files/2014_10_C310_ENG_V2_A4-2.pdf) and [CIM](https://www.cim-usa.com/products/metal-plates-systems/).
+
+Modern stamping machines are no longer just used for military applications, and
+a variety of types are available.
+
+In general, if you choose to go this route, you want a stamping machine which
+is a simple as possible. The "smarter" or more "digital" the machine, the
+greater the risk it will store or leak your seed phrase. **Ideally you want a
+purely analog and mechanical solution!**
 
 There are a couple of relatively inexpensive options for stamping machines:
 
+- The [SeedHammer](https://seedhammer.com/) is a Bitcoin-specific automatic
+  stamping machine, capable of automatically stamping both the seed phrase and
+  QR code into metal. It's designed not to retain data after stamping.
 - The [DYMO Rhino M1011
   Embosser](https://www.dymo.com/label-makers-printers/embossing-label-makers/dymo-rhino-m1011-embosser-kit/SAP_101105.html)
   will stamp anything into very thin stainless steel tape. It's very
