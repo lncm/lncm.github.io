@@ -240,7 +240,8 @@ Here are a few examples:
   Alza. Has PrestaShop and Shopify integrations.
 * [OpenNode](https://www.opennode.com/) Bitcoin- and Lightning-focused payment
   processor
-* [Coinify](https://www.coinify.com/): has integrations, but they are a large
+* [Coinify](https://www.coinify.com/): Will block/flag payments from Bitcoin
+  privacy wallets, so not recommended. Has integrations, but they are a large
   company and you have to sign up for an account to see which plugins are
   currently available. It is open to US companies.
 * [Coingate](https://coingate.com/): allows you to accept both Lightning and
