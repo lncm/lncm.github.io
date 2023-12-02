@@ -159,9 +159,17 @@ as simple as:
 Here's a list of apps shamelessly copied from [nol1mit's
 page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/):
 
-* [Muun Wallet](https://muun.com/) - For accepting both bitcoin and bitcoin
+* [Muun Wallet](https://muun.com/) - For accepting both Bitcoin and Bitcoin
   lightning payments. Since it doesn't require you to manage channels, it's
   very easy.
+* [Wallet of Satoshi](https://www.walletofsatoshi.com/) For accepting both
+  Bitcoin and Bitcoin Lightning payments. Very easy to use. It allows you to
+  generate a QR code that you print out and post next to your cash register,
+  then accept Lightning payments with that QR code even if your device is
+  offline. For people used to accepting QR code payments (e.g in Asia) this is
+  incredibly convenient.  Unfortunately Wallet of Satoshi is a custodial
+  solution (it has to be, for the offline QR functionality). If you use it,
+  don't keep too much money in it. Available on Android and iOS.
 * [Phoenix Wallet](https://phoenix.acinq.co/) - For accepting lightning
   payments as well as bitcoin onchain. However this is Android only with a beta
   for iOS.
@@ -170,6 +178,8 @@ page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/):
   Available on Android and iOS.
 * [Coinnomi Wallet](https://www.coinomi.com/en/) - For accepting **on chain**
   payments. Available on Android and iOS.
+* [BlueWallet](https://bluewallet.io/) Bitcoin and Bitcoin Lightning wallet.
+  Android and iOS.
 
 ##### What The Heck Is A "Lightning Channel"?
 
@@ -251,7 +261,7 @@ Here are a few examples:
 * [CoinPayments](https://www.coinpayments.net/): makes it easy to accept
   hundreds (or thousands!) of different cryptocurrencies. Integrates with
   Magento, Shopify, Woocommerce, Opencart, and more. It is not open to US
-  companies.
+  companies. Accepts Lightning payments.
 * [Blockonomics](https://www.blockonomics.co/merchants) allows you to receive
   the money directly into your Bitcoin wallet. This means you always control
   the funds, and they don't have to ask you for any personal information. It
