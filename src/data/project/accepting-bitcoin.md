@@ -249,11 +249,8 @@ Here are a few examples:
   companies, used by "Bitcoin OG" project Trezor and Czech electronics retailer
   Alza. Has PrestaShop and Shopify integrations.
 * [OpenNode](https://www.opennode.com/) Bitcoin- and Lightning-focused payment
-  processor
-* [Coinify](https://www.coinify.com/): Will block/flag payments from Bitcoin
-  privacy wallets, so not recommended. Has integrations, but they are a large
-  company and you have to sign up for an account to see which plugins are
-  currently available. It is open to US companies.
+  processor with many integrations. Used by some well-known companies in the
+  Bitcoin space.
 * [Coingate](https://coingate.com/): allows you to accept both Lightning and
   on-chain payments seamlessly. Has integrations for Magento, Woocommerce,
   Opencart, WHMCS, oscommerce, Zencart, ... and lots more. It's not open to US
@@ -266,6 +263,14 @@ Here are a few examples:
   the money directly into your Bitcoin wallet. This means you always control
   the funds, and they don't have to ask you for any personal information. It
   also has [lot of integrations](https://www.blockonomics.co/integrations)
+* [Opago](https://www.opago-pay.com/en/) is a German Lightning-focused payment
+  processor.
+* [Lipa for business](https://lipa.swiss/en/for-business) is a Swiss
+  Bitcoin Lightning-focused payment processor
+* [Coinify](https://www.coinify.com/): Will block/flag payments from Bitcoin
+  privacy wallets, so NOT recommended. Has integrations, but they are a large
+  company and you have to sign up for an account to see which plugins are
+  currently available. It is open to US companies.
 
 One payment processor we specifically recommend *against* is BitPay.
 Unfortunately, they've set up so many restrictions and barriers to actually
