@@ -442,7 +442,8 @@ stamping machines.
 
 #### Type sets
 
-Type sets contain a box full of movable type and a type holder. Using the type
+[Type
+sets](https://gravurem.de/en/collections/typensortimente/products/europa-typensortiment) contain a box full of movable type and a type holder. Using the type
 holder, you can stamp an entire word (or more) into metal at once.  They are
 wonderfully convenient, but require much more force to make an impression.
 
