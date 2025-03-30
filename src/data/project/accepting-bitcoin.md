@@ -180,6 +180,10 @@ page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/):
   payments. Available on Android and iOS.
 * [BlueWallet](https://bluewallet.io/) Bitcoin and Bitcoin Lightning wallet.
   Android and iOS.
+* [BitKit](https://bitkit.to/) Bitcoin and Lighning wallet that was recently
+  recommended to us.
+* [Aqua](https://aquawallet.io/) Bitcoin and Liquid (Lightning alternative)
+  wallet with native support for USDT on Liquid.
 
 ##### What The Heck Is A "Lightning Channel"?
 
