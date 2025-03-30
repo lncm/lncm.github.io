@@ -488,3 +488,6 @@ you'll therefore have to use a self-hosted solution like BTCPayServer.
 - nol1mit also maintains a [list of Bitcoin-accepting
   merchants](https://nolim1t.gitlab.io/bitcoin-merchants/). Once you get
   set-up, he'll list you too
+- Lightning News published a list of [21 wallets and service
+  providers](https://nitter.net/lightningnewsx/status/1905639054458187783?s=46)
+  for people who accept Bitcoin
