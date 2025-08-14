@@ -185,6 +185,25 @@ page](https://nolim1t.gitlab.io/bitcoin-merchant-starter-kit/):
 * [Aqua](https://aquawallet.io/) Bitcoin and Liquid (Lightning alternative)
   wallet with native support for USDT on Liquid.
 
+##### Web wallets: a quick and dirty way to get up and running now
+
+If you sell online, a mobile app won't help much. The equivalent of a custodial
+mobile wallet is a Bitcoin web wallet. With these, the provider controls your
+funds, so try not to keep too much money on them. But the tradeoff is
+convenience -- they just work, right away.
+
+* [Coinos](https://coinos.io/) (also available as an
+  [http://vm7h454g5hiy2nt3u5o7evtz3vigtypo2mkyausakvdkbmd7wpyhx5qd.onion](Onion
+  service)) - allows you to accept both Bitcoin on-chain and lightning
+  payments. The signup process is incredibly fast and convenient, and it
+  supports a dizzying array of payment types while still being easy to use.
+* [LNbits demo server](https://demo.lnbits.com/) or [nol1mit's
+  instance](https://lnbits.nolim1t.co/) - LNBits provides versatile and
+  extendable Lightning wallets that you can host yourself or use on someone
+  else's server.
+* [LATES](https://lates.lightningok.win/) - Someone recommended this, it looks
+  cool, if you try it let us know what you think :)
+
 ##### What The Heck Is A "Lightning Channel"?
 
 Now wait a minute. We mentioned "lightning channels" a couple of times. If
