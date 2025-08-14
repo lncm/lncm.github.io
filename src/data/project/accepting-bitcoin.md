@@ -193,8 +193,8 @@ funds, so try not to keep too much money on them. But the tradeoff is
 convenience -- they just work, right away.
 
 * [Coinos](https://coinos.io/) (also available as an
-  [http://vm7h454g5hiy2nt3u5o7evtz3vigtypo2mkyausakvdkbmd7wpyhx5qd.onion](Onion
-  service)) - allows you to accept both Bitcoin on-chain and lightning
+  [http://vm7h454g5hiy2nt3u5o7evtz3vigtypo2mkyausakvdkbmd7wpyhx5qd.onion](Onion service)
+  ) - allows you to accept both Bitcoin on-chain and lightning
   payments. The signup process is incredibly fast and convenient, and it
   supports a dizzying array of payment types while still being easy to use.
 * [LNbits demo server](https://demo.lnbits.com/) or [nol1mit's
